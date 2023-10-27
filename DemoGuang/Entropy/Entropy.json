@@ -1,6 +1,6 @@
 {
   "ComponentIndexes": {
-    "Component2": 1,
+    "Component2": 2,
     "Component2_1": 1
   },
   "ControlUniqueGuids": {},
@@ -18,9 +18,11 @@
     "Container4": 31,
     "firstnameSearch": 19,
     "FooterContainer1": 38,
+    "FooterContainer2": 43,
     "Gallery1": 29,
     "galleryTemplate1": 30,
     "HeaderContainer1": 13,
+    "HeaderContainer2": 41,
     "Host": 3,
     "Label1": 6,
     "Label2": 7,
@@ -34,10 +36,13 @@
     "Label8_1": 32,
     "lastnameSearch": 22,
     "MainContainer1": 17,
+    "MainContainer2": 42,
     "NextArrow7": 37,
     "programDropDown": 25,
     "Screen1": 11,
+    "Screen2": 39,
     "ScreenContainer1": 12,
+    "ScreenContainer2": 40,
     "Searchbox1": 21,
     "Searchbox2": 24,
     "Subtitle7": 34,
@@ -45,7 +50,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/27/2023 18:35:57",
+  "HeaderLastSavedDateTimeUTC": "10/27/2023 18:37:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "be856c47-14e0-44bd-8433-ef3d1e802006": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-959dac53-2dbe-471b-871f-5cedaf90c0ad\""
@@ -94,9 +99,11 @@
     "Container4": {},
     "firstnameSearch": {},
     "FooterContainer1": {},
+    "FooterContainer2": {},
     "Gallery1": {},
     "galleryTemplate1": {},
     "HeaderContainer1": {},
+    "HeaderContainer2": {},
     "Host": {},
     "Label1": {},
     "Label2": {},
@@ -110,10 +117,13 @@
     "Label8_1": {},
     "lastnameSearch": {},
     "MainContainer1": {},
+    "MainContainer2": {},
     "NextArrow7": {},
     "programDropDown": {},
     "Screen1": {},
+    "Screen2": {},
     "ScreenContainer1": {},
+    "ScreenContainer2": {},
     "Searchbox1": {},
     "Searchbox2": {},
     "Subtitle7": {},
@@ -178,9 +188,11 @@
     "Container4": 19,
     "firstnameSearch": 7,
     "FooterContainer1": 26,
+    "FooterContainer2": 0,
     "Gallery1": 17,
     "galleryTemplate1": 18,
     "HeaderContainer1": 1,
+    "HeaderContainer2": 0,
     "Host": 0,
     "Label1": 28,
     "Label2": 29,
@@ -194,10 +206,13 @@
     "Label8_1": 20,
     "lastnameSearch": 10,
     "MainContainer1": 5,
+    "MainContainer2": 0,
     "NextArrow7": 25,
     "programDropDown": 13,
     "Screen1": 0,
+    "Screen2": 0,
     "ScreenContainer1": 0,
+    "ScreenContainer2": 0,
     "Searchbox1": 9,
     "Searchbox2": 12,
     "Subtitle7": 22,
@@ -207,7 +222,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2264972,
+    "AnalysisLoadTime": 0.261352,
     "ControlCount": {
       "b73063c3e563443c8246326b1930098d": 2,
       "combobox": 1,
@@ -220,7 +235,7 @@
       "screen": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 0.8572921
+    "DeserializationLoadTime": 0.8786143
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

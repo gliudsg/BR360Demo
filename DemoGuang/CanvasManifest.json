@@ -14,7 +14,7 @@
     "AppDescription": "",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
-      "allowmultiplescreensincanvaspages": false,
+      "allowmultiplescreensincanvaspages": true,
       "appinsightserrortracing": false,
       "appinstrumentationcorrelationtracing": false,
       "autocreateenvironmentvariables": false,
@@ -131,6 +131,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "Screen2"
   ]
 }

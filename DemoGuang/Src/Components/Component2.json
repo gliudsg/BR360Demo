@@ -2070,7 +2070,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638340285283574643",
+    "LastModifiedTimestamp": "638340285717910052",
     "Name": "Component2",
     "Rules": [
       {
@@ -2129,7 +2129,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638340285283574643",
+  "LastModifiedTimestamp": "638340285717910052",
   "Name": "b73063c3e563443c8246326b1930098d",
   "OverridableProperties": {},
   "TemplateOriginalName": "b766c675f9e84b8eb11976b9e553ab12",
