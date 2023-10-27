@@ -732,125 +732,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen3",
-                "type": "Screen3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Form2_1.firstname_DataCard3_1.DataCardValue13_1.AccessibleLabel"
                 }
               ],
@@ -1031,6 +912,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen2",
+                "type": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen2",
+                "type": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon5_1.AccessibleLabel"
                 }
               ],
@@ -1151,19 +1092,48 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen3",
+                "type": "Screen3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1"
+                "module": "Screen3",
+                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_6"
               }
             }
           ],
@@ -1181,19 +1151,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.TabIndex"
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1.TabIndex",
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer2.MainContainer2.Container3.Icon3_1"
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_7"
               }
             }
           ],
@@ -1203,27 +1173,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2.TabIndex"
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2.TabIndex",
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2"
+                "type": "Screen3.ScreenContainer3.HeaderContainer3.Button1_8"
               }
             }
           ],
@@ -1233,8 +1203,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1271,19 +1241,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.TabIndex"
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.TabIndex",
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2"
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon3_2"
               }
             }
           ],
@@ -1301,79 +1271,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2"
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2"
               }
             }
           ],
@@ -1421,19 +1331,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen3",
-                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon1_2"
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2"
               }
             }
           ],
@@ -1445,6 +1355,96 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen3",
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon5_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen3",
+                "type": "Screen3.ScreenContainer3.MainContainer3.Container5.Icon4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         },
         {
           "locations": [
