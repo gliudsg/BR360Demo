@@ -22,7 +22,7 @@
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
-            Fill: =RGBA(0, 60, 106, 1)
+            Fill: =RGBA(0, 120, 212, 1)
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
@@ -44,6 +44,7 @@
                 Height: =75
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
+                OnSelect: =Navigate(Screen1)
                 PressedBorderColor: =RGBA(0, 121, 187, 1)
                 Text: ="Main Menu"
                 TextColor: =RGBA(0, 120, 212, 1)
@@ -62,6 +63,7 @@
                 Height: =75
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
+                OnSelect: =Navigate(Screen2)
                 Text: ="Basic Info"
                 TextColor: =RGBA(0, 120, 212, 1)
                 Width: =140
@@ -79,6 +81,7 @@
                 Height: =75
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
+                OnSelect: =Navigate(Screen3)
                 Text: ="Personal Info"
                 TextColor: =RGBA(0, 120, 212, 1)
                 Width: =140
@@ -317,7 +320,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -333,7 +336,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -349,7 +352,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -365,7 +368,7 @@
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FontWeight: =FontWeight.Semibold
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -385,14 +388,14 @@
                         Height: =50
                         Icon: =Icon.ChevronRight
                         OnSelect: |-
-                            =Navigate('Detail page', ScreenTransition.Fade, {locSelectedItem: ThisItem})
+                            =Navigate(Screen2, ScreenTransition.Fade, {locSelectedItem: ThisItem})
                         PaddingBottom: =16
                         PaddingLeft: =16
                         PaddingRight: =16
                         PaddingTop: =16
                         Tooltip: ="View item details"
                         Width: =50
-                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        Y: =(Gallery1.TemplateHeight / 2) - (Self.Height / 2)
                         ZIndex: =6
 
         FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:

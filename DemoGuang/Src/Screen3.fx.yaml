@@ -1,7 +1,7 @@
-"Screen2 As screen.'autoLayout_HeaderFooter_ver1.0'":
+"Screen3 As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer2 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
@@ -20,8 +20,7 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
-            BorderColor: =RGBA(255, 255, 255, 1)
+        HeaderContainer3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(0, 120, 212, 1)
             FillPortions: =0
@@ -35,7 +34,7 @@
             RadiusTopRight: =8
             ZIndex: =2
 
-            Button1_3 As Button:
+            Button1_6 As Button:
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -54,7 +53,7 @@
                 Y: =0
                 ZIndex: =1
 
-            Button1_4 As Button:
+            Button1_7 As Button:
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -72,7 +71,7 @@
                 Y: =0
                 ZIndex: =2
 
-            Button1_5 As Button:
+            Button1_8 As Button:
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -90,7 +89,7 @@
                 Y: =0
                 ZIndex: =3
 
-        MainContainer2 As groupContainer.verticalAutoLayoutContainer:
+        MainContainer3 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
@@ -103,7 +102,7 @@
             RadiusTopRight: =8
             ZIndex: =3
 
-        FooterContainer2 As groupContainer.horizontalAutoLayoutContainer:
+        FooterContainer3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0

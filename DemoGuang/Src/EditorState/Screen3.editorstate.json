@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Button1_3": {
+    "Button1_6": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "X",
@@ -150,7 +150,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button1_3",
+      "Name": "Button1_6",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -233,7 +233,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Button1_4": {
+    "Button1_7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "X",
@@ -375,7 +375,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button1_4",
+      "Name": "Button1_7",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -453,7 +453,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Button1_5": {
+    "Button1_8": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "X",
@@ -595,7 +595,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button1_5",
+      "Name": "Button1_8",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -673,7 +673,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "FooterContainer2": {
+    "FooterContainer3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "BorderColor",
@@ -747,7 +747,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%FooterContainer.ID%",
-      "Name": "FooterContainer2",
+      "Name": "FooterContainer3",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -870,17 +870,10 @@
       "StyleName": "defaultGroupContainerStyle",
       "Type": "ControlInfo"
     },
-    "HeaderContainer2": {
+    "HeaderContainer3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "BorderColor",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "BorderColor",
         "BorderStyle",
         {
           "AFDDataSourceName": "",
@@ -958,7 +951,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%HeaderContainer.ID%",
-      "Name": "HeaderContainer2",
+      "Name": "HeaderContainer3",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1081,7 +1074,7 @@
       "StyleName": "defaultGroupContainerStyle",
       "Type": "ControlInfo"
     },
-    "MainContainer2": {
+    "MainContainer3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "BorderColor",
@@ -1155,7 +1148,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%MainContainer.ID%",
-      "Name": "MainContainer2",
+      "Name": "MainContainer3",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1278,7 +1271,7 @@
       "StyleName": "defaultGroupContainerStyle",
       "Type": "ControlInfo"
     },
-    "Screen2": {
+    "Screen3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -1298,7 +1291,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Screen2",
+      "Name": "Screen3",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1346,7 +1339,7 @@
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
-    "ScreenContainer2": {
+    "ScreenContainer3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "BorderColor",
@@ -1386,7 +1379,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%ScreenContainer.ID%",
-      "Name": "ScreenContainer2",
+      "Name": "ScreenContainer3",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1530,5 +1523,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Screen2"
+  "TopParentName": "Screen3"
 }

@@ -120,7 +120,7 @@
             "Name": "Label1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 28,
+            "PublishOrderIndex": 42,
             "Rules": [
               {
                 "Category": "Data",
@@ -486,7 +486,7 @@
             "Name": "Label2",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 29,
+            "PublishOrderIndex": 43,
             "Rules": [
               {
                 "Category": "Data",
@@ -852,7 +852,7 @@
             "Name": "Label3",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 30,
+            "PublishOrderIndex": 44,
             "Rules": [
               {
                 "Category": "Data",
@@ -1218,7 +1218,7 @@
             "Name": "Label4",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 31,
+            "PublishOrderIndex": 45,
             "Rules": [
               {
                 "Category": "Data",
@@ -1584,7 +1584,7 @@
             "Name": "Label7",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 32,
+            "PublishOrderIndex": 46,
             "Rules": [
               {
                 "Category": "Data",
@@ -1883,7 +1883,7 @@
         "Name": "Container1",
         "Parent": "Component2",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 27,
+        "PublishOrderIndex": 41,
         "Rules": [
           {
             "Category": "Design",
