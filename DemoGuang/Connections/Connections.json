@@ -1,0 +1,46 @@
+{
+  "be856c47-14e0-44bd-8433-ef3d1e802006": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "oauth",
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1654/1.0.1654.3416/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "guangpowerapp.database.windows.net,powerapptest": {
+        "dataSources": {
+          "user_address": {
+            "tableName": "[dbo].[user_address]"
+          },
+          "user_status": {
+            "tableName": "[dbo].[user_status]"
+          },
+          "user_with_status": {
+            "tableName": "[dbo].[user_with_status]"
+          },
+          "users": {
+            "tableName": "[dbo].[users]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "user_address",
+      "user_status",
+      "user_with_status",
+      "users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "guangpowerapp.database.windows.net,powerapptest"
+    ],
+    "id": "be856c47-14e0-44bd-8433-ef3d1e802006"
+  }
+}

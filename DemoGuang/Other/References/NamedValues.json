@@ -1,0 +1,14 @@
+{
+  "NamedValues": [
+    {
+      "Kind": "Page",
+      "Name": "Admin Tools",
+      "Value": "custompage:crbdc_admintools_66c4f"
+    },
+    {
+      "Kind": "Page",
+      "Name": "Main Menu",
+      "Value": "custompage:crbdc_mainmenu_fa3a4"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+Component2 As CanvasComponent:
+    Fill: =Color.Transparent
+    Height: =80
+    Width: =1200
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1200
+        Y: =40
+        ZIndex: =6
+
+        Label1 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            Size: =13
+            Text: ="ID"
+            X: =31
+            Y: =25
+            ZIndex: =1
+
+        Label2 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            Size: =13
+            Text: ="FirstName"
+            X: =150
+            Y: =25
+            ZIndex: =2
+
+        Label3 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            Size: =13
+            Text: ="LastName"
+            X: =300
+            Y: =25
+            ZIndex: =3
+
+        Label4 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            Size: =13
+            Text: ="Program"
+            X: =450
+            Y: =25
+            ZIndex: =4
+
+        Label7 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            Size: =13
+            Text: |-
+                ="Status
+                "
+            X: =600
+            Y: =25
+            ZIndex: =5
+
