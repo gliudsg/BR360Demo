@@ -1,7 +1,7 @@
 Component2 As CanvasComponent:
     Fill: =Color.Transparent
     Height: =80
-    Width: =1200
+    Width: =1300
     X: =0
     Y: =0
     ZIndex: =1
@@ -13,11 +13,12 @@ Component2 As CanvasComponent:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =1200
+        Width: =1300
         Y: =40
         ZIndex: =6
 
         Label1 As label:
+            AlignInContainer: =AlignInContainer.Start
             BorderColor: =RGBA(0, 18, 107, 1)
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
