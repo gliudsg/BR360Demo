@@ -105,7 +105,7 @@
     "DocumentLayoutLockOrientation": false,
     "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "landscape",
-    "DocumentLayoutScaleToFit": false,
+    "DocumentLayoutScaleToFit": true,
     "DocumentLayoutWidth": 1366,
     "DocumentType": "Page",
     "EnableInstrumentation": false,

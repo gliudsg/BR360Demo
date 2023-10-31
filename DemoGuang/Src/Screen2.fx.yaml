@@ -465,7 +465,7 @@
                         BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
-                        Default: =Parent.Default
+                        Default: =If(Toggle4.Checked,Parent.Default,"****-**-**")
                         DelayOutput: =true
                         DisabledBorderColor: =RGBA(166, 166, 166, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -594,4 +594,12 @@
             RadiusTopLeft: =8
             RadiusTopRight: =8
             ZIndex: =4
+
+    Toggle4 As Toggle:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =160
+        X: =155
+        Y: =250
+        ZIndex: =2
 
