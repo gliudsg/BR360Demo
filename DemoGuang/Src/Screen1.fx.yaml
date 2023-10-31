@@ -20,6 +20,36 @@
         Width: =Parent.Width
         ZIndex: =1
 
+        HeaderContainer2_1 As groupContainer.horizontalAutoLayoutContainer:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =1
+
+            Label9 As Label:
+                AutoHeight: =true
+                DisplayMode: =DisplayMode.Edit
+                FillPortions: =1
+                FontSize: =30
+                FontWeight: =FontWeight.Bold
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =320
+                Text: ="Member Management"
+                Width: =320
+                X: =0
+                Y: =0
+                ZIndex: =1
+
         MainContainer1 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
@@ -31,7 +61,7 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
-            ZIndex: =3
+            ZIndex: =2
 
             Container2 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
@@ -133,7 +163,6 @@
 
                 programDropDown As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
-                    DropShadow: =DropShadow.Light
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
                     LayoutMinHeight: =100
@@ -189,6 +218,7 @@
             Container1_1 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.Center
                 DropShadow: =DropShadow.Light
+                FillPortions: =0
                 Height: =50
                 LayoutMinHeight: =35
                 LayoutMinWidth: =250
@@ -290,11 +320,13 @@
                 ZIndex: =3
 
                 Container4 As groupContainer.horizontalAutoLayoutContainer:
+                    Fill: =If(ThisItem.status="admitted",RGBA(0, 0, 0, 0),Color.PaleVioletRed)
                     Height: =135
+                    LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutMode: =LayoutMode.Auto
                     LayoutWrap: =true
+                    PaddingLeft: =60
                     Width: =1270
-                    X: =60
                     ZIndex: =9
 
                     Label8_1 As label:
@@ -410,5 +442,5 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
-            ZIndex: =4
+            ZIndex: =3
 
