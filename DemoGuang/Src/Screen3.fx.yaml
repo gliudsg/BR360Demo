@@ -20,29 +20,32 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer3 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainer2_2 As groupContainer.horizontalAutoLayoutContainer:
+            BorderColor: =RGBA(255, 255, 255, 1)
             DropShadow: =DropShadow.Light
             Fill: =RGBA(0, 120, 212, 1)
             FillPortions: =0
             Height: =75
-            LayoutMinHeight: =100
+            LayoutMinHeight: =0
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
-            ZIndex: =2
+            ZIndex: =1
 
-            Button1_6 As Button:
+            Button1_9 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen1)
                 PressedBorderColor: =RGBA(0, 121, 187, 1)
@@ -53,15 +56,17 @@
                 Y: =0
                 ZIndex: =1
 
-            Button1_7 As Button:
+            Button1_10 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen2)
                 Text: ="Basic Info"
@@ -71,15 +76,17 @@
                 Y: =0
                 ZIndex: =2
 
-            Button1_8 As Button:
+            Button1_11 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen3)
                 Text: ="Personal Info"
