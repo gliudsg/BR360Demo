@@ -34,6 +34,7 @@
             ZIndex: =3
 
             Container2 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 FillPortions: =0
                 Height: =90
@@ -187,6 +188,7 @@
                         ZIndex: =3
 
             Container1_1 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 FillPortions: =0
                 Height: =50
@@ -263,9 +265,11 @@
                     ZIndex: =5
 
             "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderColor: =RGBA(0, 18, 107, 1)
                 DelayItemLoading: =true
-                Height: =399
+                FillPortions: =0
+                Height: =500
                 Items: |-
                     =Filter(
                         user_with_status,
@@ -289,6 +293,7 @@
                     DropShadow: =DropShadow.Light
                     Height: =135
                     LayoutMode: =LayoutMode.Auto
+                    LayoutWrap: =true
                     RadiusBottomLeft: =4
                     RadiusBottomRight: =4
                     RadiusTopLeft: =4
