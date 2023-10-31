@@ -134,7 +134,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 21:27:15",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 21:36:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "be856c47-14e0-44bd-8433-ef3d1e802006": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-959dac53-2dbe-471b-871f-5cedaf90c0ad\""
@@ -733,12 +733,12 @@
   "PublishOrderIndices": {
     "App": 0,
     "Body2": 28,
-    "Button1_10": 34,
-    "Button1_11": 35,
+    "Button1_10": 73,
+    "Button1_11": 74,
     "Button1_3": 33,
     "Button1_4": 34,
     "Button1_5": 35,
-    "Button1_9": 33,
+    "Button1_9": 72,
     "ComboBox1": 14,
     "company_DataCard1": 82,
     "Component2": 15,
@@ -791,7 +791,7 @@
     "HeaderContainer1": 111,
     "HeaderContainer2": 32,
     "HeaderContainer2_1": 1,
-    "HeaderContainer2_2": 32,
+    "HeaderContainer2_2": 71,
     "Host": 0,
     "Icon1_1": 62,
     "Icon1_2": 104,
