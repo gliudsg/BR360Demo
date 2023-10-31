@@ -26,7 +26,7 @@
             Fill: =RGBA(0, 120, 212, 1)
             FillPortions: =0
             Height: =75
-            LayoutMinHeight: =100
+            LayoutMinHeight: =0
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             RadiusBottomLeft: =8
@@ -36,6 +36,7 @@
             ZIndex: =2
 
             Button1_3 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -44,7 +45,7 @@
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen1)
                 PressedBorderColor: =RGBA(0, 121, 187, 1)
@@ -56,6 +57,7 @@
                 ZIndex: =1
 
             Button1_4 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -64,7 +66,7 @@
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen2)
                 Text: ="Basic Info"
@@ -75,6 +77,7 @@
                 ZIndex: =2
 
             Button1_5 As Button:
+                AlignInContainer: =AlignInContainer.Stretch
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
@@ -83,7 +86,7 @@
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                LayoutMinHeight: =32
+                LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen3)
                 Text: ="Personal Info"
