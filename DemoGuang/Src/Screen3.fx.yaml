@@ -572,3 +572,32 @@
             RadiusTopRight: =8
             ZIndex: =4
 
+            Image1_1 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FillPortions: =1
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: ='header-background'
+                ImagePosition: =ImagePosition.Fill
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                ZIndex: =1
+
+    Label12_1 As Label:
+        AutoHeight: =true
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Overflow: ='Label.Overflow'.Hidden
+        Text: |-
+            ="""360 Apps
+            Copyright 2023 Benjamin Rose Institute on Aging"""
+        Width: =320
+        X: =28
+        Y: =692
+        ZIndex: =2
+
