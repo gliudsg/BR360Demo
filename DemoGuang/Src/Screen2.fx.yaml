@@ -104,6 +104,7 @@
             ZIndex: =3
 
             Form2_1 As form:
+                AlignInContainer: =AlignInContainer.Start
                 BorderColor: =RGBA(0, 18, 107, 1)
                 DataSource: =users
                 DefaultMode: =If(newMode, FormMode.New, editMode, FormMode.Edit, FormMode.View)
@@ -116,7 +117,7 @@
                 OnFailure: =Notify("Cannot save. Please check if there are errors in the form.", NotificationType.Error)
                 OnSuccess: |-
                     =UpdateContext({ CurrentItem: Self.LastSubmit, editMode: false, newMode: false })
-                Width: =1120
+                Width: =1200
                 X: =111
                 Y: =284
                 ZIndex: =1
