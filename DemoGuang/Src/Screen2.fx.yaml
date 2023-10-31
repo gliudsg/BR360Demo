@@ -41,6 +41,7 @@
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 LayoutMinHeight: =32
@@ -60,6 +61,7 @@
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 LayoutMinHeight: =32
@@ -78,6 +80,7 @@
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 LayoutMinHeight: =32
@@ -615,8 +618,8 @@
         DisplayMode: =DisplayMode.Edit
         Height: =32
         Width: =160
-        X: =155
-        Y: =250
+        X: =48
+        Y: =284
         ZIndex: =2
 
     Label12 As Label:
