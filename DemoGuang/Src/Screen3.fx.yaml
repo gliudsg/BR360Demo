@@ -110,10 +110,11 @@
             ZIndex: =3
 
             Form1 As form:
-                AlignInContainer: =AlignInContainer.Start
-                BorderColor: =RGBA(166, 166, 166, 1)
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(220, 153, 153, 1)
                 DataSource: =user_address
                 DefaultMode: =If(newMode2, FormMode.New, editMode2, FormMode.Edit, FormMode.View)
+                Fill: =RGBA(238, 204, 204, 1)
                 Item: =LookUp(user_address, id = Gallery1.Selected.id)
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
@@ -529,18 +530,6 @@
                     X: =828
                     Y: =408
                     ZIndex: =1
-
-                Icon1_2 As icon.Reset:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Reset
-                    OnSelect: |-
-                        =ResetForm(Form1); UpdateContext({ editMode2: false, newMode2: false });
-                    X: =92
-                    Y: =408
-                    ZIndex: =2
 
                 Icon5_2 As icon.Cancel:
                     BorderColor: =RGBA(0, 18, 107, 1)
