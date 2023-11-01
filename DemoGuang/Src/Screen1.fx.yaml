@@ -113,7 +113,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         Size: =13
                         Text: ="First Name"
-                        X: =4
+                        X: =32
                         Y: =5
                         ZIndex: =1
 
@@ -131,6 +131,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
                         Width: =154
+                        X: =32
                         Y: =45
                         ZIndex: =2
 
@@ -155,6 +156,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         Size: =13
                         Text: ="Last Name"
+                        X: =23
                         Y: =5
                         ZIndex: =1
 
@@ -172,6 +174,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
                         Width: =154
+                        X: =23
                         Y: =45
                         ZIndex: =2
 
@@ -308,7 +311,7 @@
                     ZIndex: =5
 
             "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.SetByContainer
+                AlignInContainer: =AlignInContainer.Start
                 BorderColor: =RGBA(0, 18, 107, 1)
                 BorderStyle: =BorderStyle.None
                 DelayItemLoading: =true
@@ -327,7 +330,7 @@
                     =UpdateContext({ itemSelected: true, CurrentItem: ThisItem })
                 ShowNavigation: =true
                 TemplatePadding: =0
-                TemplateSize: =135
+                TemplateSize: =70
                 Width: =1366
                 X: =12
                 Y: =137
@@ -335,7 +338,7 @@
 
                 Container4 As groupContainer.horizontalAutoLayoutContainer:
                     Fill: =If(ThisItem.status="admitted",RGBA(0, 0, 0, 0),Color.PaleVioletRed)
-                    Height: =135
+                    Height: =70
                     LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutMode: =LayoutMode.Auto
                     LayoutWrap: =true
