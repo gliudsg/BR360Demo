@@ -66,12 +66,19 @@
             ZIndex: =2
 
             Label11 As Label:
+                AlignInContainer: =AlignInContainer.Start
+                Alignment: =Align.Left
+                AutoHeight: =true
                 DisplayMode: =DisplayMode.Edit
-                FontSize: =11
+                FontSize: =20
                 FontWeight: =FontWeight.Bold
-                Height: =32
+                Height: =55
                 LayoutMinHeight: =32
                 LayoutMinWidth: =320
+                PaddingBottom: |
+                    =0
+                PaddingStart: |
+                    =10
                 Text: ="Search Filters"
                 Width: =320
                 X: =0
@@ -81,7 +88,7 @@
             Container2 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
-                Height: =90
+                Height: =70
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -95,8 +102,8 @@
                 firstnameSearch As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
-                    Height: =99
-                    LayoutMinHeight: =100
+                    Height: =60
+                    LayoutMinHeight: =60
                     LayoutMinWidth: =250
                     RadiusBottomLeft: =4
                     RadiusBottomRight: =4
@@ -108,13 +115,15 @@
                     ZIndex: =1
 
                     Label5 As label:
+                        AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
-                        Size: =13
-                        Text: ="First Name"
+                        Height: =25
+                        Size: =11
+                        Text: ="FISRST NAME"
+                        Width: =107
                         X: =32
-                        Y: =5
                         ZIndex: =1
 
                     Searchbox1 As text:
@@ -126,20 +135,21 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         FocusedBorderThickness: =4
+                        Height: =30
                         HoverBorderColor: =RGBA(0, 18, 107, 1)
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =154
+                        Width: =100
                         X: =32
-                        Y: =45
+                        Y: =29
                         ZIndex: =2
 
                 lastnameSearch As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
-                    LayoutMinHeight: =100
+                    LayoutMinHeight: =60
                     LayoutMinWidth: =250
                     RadiusBottomLeft: =4
                     RadiusBottomRight: =4
@@ -151,13 +161,15 @@
                     ZIndex: =2
 
                     Label5_1 As label:
+                        AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
-                        Size: =13
-                        Text: ="Last Name"
-                        X: =23
-                        Y: =5
+                        Height: =24
+                        Size: =11
+                        Text: ="LAST NAME"
+                        Width: =94
+                        X: =14
                         ZIndex: =1
 
                     Searchbox2 As text:
@@ -169,20 +181,21 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         FocusedBorderThickness: =4
+                        Height: =30
                         HoverBorderColor: =RGBA(0, 18, 107, 1)
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =154
-                        X: =23
-                        Y: =45
+                        Width: =100
+                        X: =14
+                        Y: =29
                         ZIndex: =2
 
                 programDropDown As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
-                    LayoutMinHeight: =100
+                    LayoutMinHeight: =60
                     LayoutMinWidth: =250
                     RadiusBottomLeft: =4
                     RadiusBottomRight: =4
@@ -194,13 +207,15 @@
                     ZIndex: =3
 
                     Label6 As label:
+                        AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
-                        Size: =13
-                        Text: ="Program Name"
-                        X: =10
-                        Y: =5
+                        Height: =26
+                        Size: =11
+                        Text: ="PROGRAM"
+                        Width: =90
+                        X: =12
                         ZIndex: =1
 
                     ComboBox1 As combobox:
@@ -214,6 +229,7 @@
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         DisplayFields: =["Value"]
+                        Height: =30
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         IsSearchable: =false
@@ -228,9 +244,345 @@
                         SearchItems: =[]
                         SelectionFill: =RGBA(56, 96, 178, 1)
                         Size: =13
-                        Width: =281
-                        Y: =45
+                        Width: =150
+                        X: =12
+                        Y: =29
                         ZIndex: =3
+
+                programDropDown_1 As groupContainer.manualLayoutContainer:
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =99
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =281
+                    X: =369
+                    Y: =196
+                    ZIndex: =4
+
+                    Label6_1 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =20
+                        Size: =11
+                        Text: ="ADMISSION STATUS"
+                        Width: =158
+                        X: =19
+                        ZIndex: =1
+
+                    ComboBox1_1 As combobox:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        ChevronBackground: =RGBA(56, 96, 178, 1)
+                        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                        ChevronHoverBackground: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+                        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        DisplayFields: =["Value"]
+                        Height: =30
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        IsSearchable: =false
+                        Items: |-
+                            =Distinct(
+                                user_with_status,
+                                status
+                            )
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(0, 18, 107, 1)
+                        SearchFields: =["Value"]
+                        SearchItems: =[]
+                        SelectionFill: =RGBA(56, 96, 178, 1)
+                        Size: =13
+                        Width: =197
+                        X: =19
+                        Y: =29
+                        ZIndex: =3
+
+            Container7 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutMinHeight: =70
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =3
+
+                firstnameSearch_1 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =1
+
+                    Label5_2 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =25
+                        Size: =11
+                        Text: ="ADDRESS"
+                        Width: =107
+                        X: =32
+                        ZIndex: =1
+
+                    Searchbox1_1 As text:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        BorderThickness: =2
+                        Color: =RGBA(0, 0, 0, 1)
+                        Default: =""
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 18, 107, 1)
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        Size: =13
+                        Width: =400
+                        X: =32
+                        Y: =29
+                        ZIndex: =2
+
+                firstnameSearch_2 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =3
+
+                    Label5_3 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =25
+                        Size: =11
+                        Text: ="BR NUMBER"
+                        Width: =107
+                        X: =48
+                        ZIndex: =1
+
+                    Searchbox1_2 As text:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        BorderThickness: =2
+                        Color: =RGBA(0, 0, 0, 1)
+                        Default: =""
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 18, 107, 1)
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        Size: =13
+                        Width: =100
+                        X: =48
+                        Y: =29
+                        ZIndex: =2
+
+            Container7_1 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutMinHeight: =70
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                firstnameSearch_6 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    FillPortions: =2
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =1
+
+                    Label5_6 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =25
+                        Size: =11
+                        Text: ="CITY"
+                        Width: =107
+                        X: =30
+                        ZIndex: =1
+
+                    Searchbox1_5 As text:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        BorderThickness: =2
+                        Color: =RGBA(0, 0, 0, 1)
+                        Default: =""
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 18, 107, 1)
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        Size: =13
+                        Width: =230
+                        X: =30
+                        Y: =29
+                        ZIndex: =2
+
+                firstnameSearch_3 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =2
+
+                    Label5_4 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =25
+                        Size: =11
+                        Text: ="STATE"
+                        Width: =107
+                        X: =48
+                        ZIndex: =1
+
+                    Searchbox1_3 As text:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        BorderThickness: =2
+                        Color: =RGBA(0, 0, 0, 1)
+                        Default: =""
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 18, 107, 1)
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        Size: =13
+                        Width: =100
+                        X: =48
+                        Y: =29
+                        ZIndex: =2
+
+                firstnameSearch_4 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =3
+
+                    Label5_5 As label:
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        Color: =RGBA(0, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Height: =25
+                        Size: =11
+                        Text: |-
+                            ="ZIP CODE
+                            "
+                        Width: =107
+                        X: =48
+                        ZIndex: =1
+
+                    Searchbox1_4 As text:
+                        BorderColor: =RGBA(0, 18, 107, 1)
+                        BorderThickness: =2
+                        Color: =RGBA(0, 0, 0, 1)
+                        Default: =""
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        FocusedBorderThickness: =4
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 18, 107, 1)
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =RGBA(186, 202, 226, 1)
+                        Size: =13
+                        Width: =100
+                        X: =48
+                        Y: =29
+                        ZIndex: =2
+
+                firstnameSearch_7 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    BorderColor: =RGBA(220, 153, 153, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    FillPortions: =4
+                    Height: =60
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    Width: =168
+                    X: =23
+                    Y: =196
+                    ZIndex: =5
 
             Container1_1 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.Center
@@ -247,7 +599,7 @@
                 Width: |
                     =1400
                 Y: =40
-                ZIndex: =3
+                ZIndex: =5
 
                 Label1_1 As label:
                     AlignInContainer: =AlignInContainer.Start
@@ -257,7 +609,7 @@
                     FillPortions: =1
                     PaddingLeft: =60
                     Size: =13
-                    Text: ="Customer ID"
+                    Text: ="ID"
                     X: =31
                     Y: =25
                     ZIndex: =1
@@ -292,7 +644,7 @@
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FillPortions: =1
                     Size: =13
-                    Text: ="Program Name"
+                    Text: ="Program "
                     X: =450
                     Y: =25
                     ZIndex: =4
@@ -334,7 +686,7 @@
                 Width: =1366
                 X: =12
                 Y: =137
-                ZIndex: =4
+                ZIndex: =6
 
                 Container4 As groupContainer.horizontalAutoLayoutContainer:
                     Fill: =If(ThisItem.status="admitted",RGBA(0, 0, 0, 0),Color.PaleVioletRed)
