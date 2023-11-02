@@ -87,6 +87,7 @@
 
             Container2 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                BorderStyle: =BorderStyle.None
                 FillPortions: =0
                 Height: =70
                 LayoutMinHeight: =0
@@ -309,7 +310,6 @@
                         ZIndex: =3
 
             Container7 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.Light
                 FillPortions: =0
                 Height: =70
                 LayoutMinHeight: =70
@@ -416,7 +416,7 @@
                         ZIndex: =2
 
             Container7_1 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.Light
+                FillPortions: =0
                 Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
