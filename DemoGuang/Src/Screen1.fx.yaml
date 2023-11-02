@@ -656,6 +656,7 @@
                     Label9 As Label:
                         AutoHeight: =true
                         DisplayMode: =DisplayMode.Edit
+                        FillPortions: =1
                         FontSize: =13
                         FontWeight: =FontWeight.Bold
                         Height: =32
