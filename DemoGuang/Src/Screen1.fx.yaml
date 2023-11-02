@@ -589,7 +589,6 @@
                     ZIndex: =5
 
             Container6 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.Light
                 LayoutMinHeight: =40
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -626,7 +625,7 @@
                 ZIndex: =6
 
                 Container4 As groupContainer.horizontalAutoLayoutContainer:
-                    Fill: =If(ThisItem.status="admitted",RGBA(0, 0, 0, 0),Color.PaleVioletRed)
+                    Fill: =If(ThisItem.accountstatus,RGBA(0, 0, 0, 0),Color.PaleVioletRed)
                     Height: =70
                     LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutMode: =LayoutMode.Auto
@@ -768,22 +767,68 @@
 
     Label10 As Label:
         DisplayMode: =DisplayMode.Edit
+        FontSize: =16
         FontWeight: =FontWeight.Bold
         Height: =32
         Text: ="ID"
         Width: =25
-        X: =74
+        X: =73
         Y: =368
         ZIndex: =3
 
     Label14 As Label:
         DisplayMode: =DisplayMode.Edit
+        FontSize: =16
         FontWeight: =FontWeight.Bold
         Height: =32
         Text: |-
             ="BR #"
         Width: =110
-        X: =224
+        X: =223
         Y: =368
         ZIndex: =4
+
+    Label15 As Label:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =16
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Text: ="First Name"
+        Width: =320
+        X: =543
+        Y: =368
+        ZIndex: =5
+
+    Label16 As Label:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =16
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Text: ="Last Name"
+        Width: =320
+        X: =694
+        Y: =368
+        ZIndex: =6
+
+    Label17 As Label:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =16
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Text: ="Program"
+        Width: =320
+        X: =844
+        Y: =368
+        ZIndex: =7
+
+    Label18 As Label:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =16
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Text: ="Ad. Status"
+        Width: =320
+        X: =993
+        Y: =368
+        ZIndex: =8
 
