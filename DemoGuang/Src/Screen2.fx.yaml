@@ -566,8 +566,10 @@
                         ZIndex: =4
 
             Container3 As groupContainer.horizontalAutoLayoutContainer:
+                FillPortions: =0
+                Height: =30
                 LayoutAlignItems: =LayoutAlignItems.End
-                LayoutMinHeight: =100
+                LayoutMinHeight: =30
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 RadiusBottomLeft: =4
@@ -594,6 +596,74 @@
                     Y: =0
                     ZIndex: =1
 
+            Container8 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =7
+
+                Gallery7 As gallery.BrowseLayout_Vertical_TwoTextOneImageVariant_pcfCore:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    DelayItemLoading: =true
+                    FocusedBorderColor: =RGBA(0, 120, 212, 1)
+                    FocusedBorderThickness: =2
+                    Items: =user_status
+                    Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplatePadding: =0
+                    TemplateSize: =48
+                    ZIndex: =1
+
+                    Rectangle4 As rectangle:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(0,0,0,0)
+                        Fill: =RGBA(0,0,0,0)
+                        FocusedBorderColor: =RGBA(0, 120, 212, 1)
+                        Height: =Parent.TemplateHeight
+                        HoverFill: =RGBA(0,0,0,0)
+                        OnSelect: =Select(Parent)
+                        PressedFill: =RGBA(0,0,0,0)
+                        TabIndex: =0
+                        Width: =Parent.TemplateWidth
+                        ZIndex: =1
+
+                    Title4 As Label:
+                        Alignment: =Align.Left
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =10.5
+                        FontWeight: =FontWeight.Semibold
+                        Height: =24
+                        OnSelect: =Select(Parent)
+                        TabIndex: =-1
+                        Text: =ThisItem.user_id
+                        VerticalAlignment: =VerticalAlign.Top
+                        Width: =114
+                        X: =82
+                        Y: =12
+                        ZIndex: =3
+
+                    Subtitle4 As Label:
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        FontWeight: =FontWeight.Normal
+                        Height: =24
+                        OnSelect: =Select(Parent)
+                        TabIndex: =-1
+                        Text: =ThisItem.status
+                        VerticalAlignment: =VerticalAlign.Top
+                        Width: =86
+                        X: =1140
+                        Y: =12
+                        ZIndex: =4
+
         FooterContainer2 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
@@ -606,7 +676,7 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
-            ZIndex: =4
+            ZIndex: =5
 
             Image1 As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
