@@ -123,7 +123,7 @@
                         Size: =11
                         Text: ="FISRST NAME"
                         Width: =107
-                        X: =32
+                        X: =30
                         ZIndex: =1
 
                     Searchbox1 As text:
@@ -139,9 +139,10 @@
                         HoverBorderColor: =RGBA(0, 18, 107, 1)
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
+                        PaddingLeft: =5
                         Size: =13
                         Width: =100
-                        X: =32
+                        X: =30
                         Y: =29
                         ZIndex: =2
 
@@ -343,7 +344,7 @@
                         Size: =11
                         Text: ="ADDRESS"
                         Width: =107
-                        X: =32
+                        X: =30
                         ZIndex: =1
 
                     Searchbox1_1 As text:
@@ -361,7 +362,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
                         Width: =400
-                        X: =32
+                        X: =30
                         Y: =29
                         ZIndex: =2
 
