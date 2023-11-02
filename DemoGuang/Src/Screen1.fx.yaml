@@ -310,6 +310,8 @@
 
             Container7 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
+                FillPortions: =0
+                Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -415,6 +417,7 @@
 
             Container7_1 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
+                Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
