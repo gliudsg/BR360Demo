@@ -772,8 +772,8 @@
         Height: =32
         Text: ="ID"
         Width: =25
-        X: =73
-        Y: =368
+        X: =70
+        Y: =350
         ZIndex: =3
 
     Label14 As Label:
@@ -784,8 +784,8 @@
         Text: |-
             ="BR #"
         Width: =110
-        X: =223
-        Y: =368
+        X: =219
+        Y: =350
         ZIndex: =4
 
     Label15 As Label:
@@ -795,8 +795,8 @@
         Height: =32
         Text: ="First Name"
         Width: =320
-        X: =543
-        Y: =368
+        X: =539
+        Y: =350
         ZIndex: =5
 
     Label16 As Label:
@@ -806,8 +806,8 @@
         Height: =32
         Text: ="Last Name"
         Width: =320
-        X: =694
-        Y: =368
+        X: =692
+        Y: =350
         ZIndex: =6
 
     Label17 As Label:
@@ -817,8 +817,8 @@
         Height: =32
         Text: ="Program"
         Width: =320
-        X: =844
-        Y: =368
+        X: =843
+        Y: =350
         ZIndex: =7
 
     Label18 As Label:
@@ -829,6 +829,6 @@
         Text: ="Ad. Status"
         Width: =320
         X: =993
-        Y: =368
+        Y: =350
         ZIndex: =8
 
