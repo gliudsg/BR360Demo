@@ -142,7 +142,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         PaddingLeft: =5
                         Size: =13
-                        Width: =100
+                        Width: =302
                         X: =30
                         Y: =29
                         ZIndex: =2
@@ -188,7 +188,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =100
+                        Width: =323
                         X: =14
                         Y: =29
                         ZIndex: =2
@@ -246,7 +246,7 @@
                         SearchItems: =[]
                         SelectionFill: =RGBA(56, 96, 178, 1)
                         Size: =13
-                        Width: =150
+                        Width: =329
                         X: =12
                         Y: =29
                         ZIndex: =3
@@ -304,7 +304,7 @@
                         SearchItems: =[]
                         SelectionFill: =RGBA(56, 96, 178, 1)
                         Size: =13
-                        Width: =197
+                        Width: =251
                         X: =19
                         Y: =29
                         ZIndex: =3
@@ -363,7 +363,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =400
+                        Width: =637
                         X: =30
                         Y: =29
                         ZIndex: =2
@@ -410,7 +410,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =100
+                        Width: =324
                         X: =48
                         Y: =29
                         ZIndex: =2
@@ -517,7 +517,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =100
+                        Width: =194
                         X: =48
                         Y: =29
                         ZIndex: =2
@@ -549,7 +549,6 @@
                             ="ZIP CODE
                             "
                         Width: =107
-                        X: =48
                         ZIndex: =1
 
                     Searchbox1_4 As text:
@@ -566,8 +565,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =100
-                        X: =48
+                        Width: =134
                         Y: =29
                         ZIndex: =2
 
