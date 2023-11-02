@@ -57,7 +57,7 @@
         HeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
             BorderColor: =RGBA(255, 255, 255, 1)
             DropShadow: =DropShadow.Light
-            Fill: =RGBA(0, 120, 212, 1)
+            Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =0
@@ -68,27 +68,6 @@
             RadiusTopLeft: =8
             RadiusTopRight: =8
             ZIndex: =2
-
-            Button1_3 As Button:
-                AlignInContainer: =AlignInContainer.Stretch
-                BorderColor: =RGBA(255, 255, 255, 1)
-                BorderStyle: =BorderStyle.Solid
-                BorderThickness: =0
-                DisplayMode: =DisplayMode.Edit
-                FillColor: =If(App.ActiveScreen.Name = "Screen2",RGBA(0, 0, 139, 8),RGBA(0,128,187,1))
-                FillPortions: =1
-                FontWeight: =FontWeight.Normal
-                Height: =75
-                LayoutMinHeight: =75
-                LayoutMinWidth: =96
-                OnSelect: =Navigate(Screen1)
-                PressedBorderColor: =RGBA(0, 121, 187, 1)
-                Text: ="Main Menu"
-                TextColor: =RGBA(255, 255, 255, 1)
-                Width: =140
-                X: =0
-                Y: =0
-                ZIndex: =1
 
             Button1_4 As Button:
                 AlignInContainer: =AlignInContainer.Stretch
@@ -129,6 +108,17 @@
                 X: =0
                 Y: =0
                 ZIndex: =3
+
+            Container9 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                FillPortions: =8
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
 
         MainContainer2 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
