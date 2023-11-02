@@ -655,6 +655,7 @@
                         AutoHeight: =true
                         DisplayMode: =DisplayMode.Edit
                         FillPortions: =1
+                        Font: =Font.'Open Sans'
                         FontSize: =13
                         FontWeight: =FontWeight.Bold
                         Height: =32
