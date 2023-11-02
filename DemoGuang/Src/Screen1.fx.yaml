@@ -78,7 +78,7 @@
                 PaddingBottom: |
                     =0
                 PaddingStart: |
-                    =10
+                    =30
                 Text: ="Search Filters"
                 Width: =320
                 X: =0
