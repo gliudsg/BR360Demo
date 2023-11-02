@@ -500,7 +500,7 @@
                         Size: =11
                         Text: ="STATE"
                         Width: =107
-                        X: =48
+                        X: =12
                         ZIndex: =1
 
                     Searchbox1_3 As text:
@@ -518,7 +518,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
                         Width: =194
-                        X: =48
+                        X: =12
                         Y: =29
                         ZIndex: =2
 
@@ -549,6 +549,7 @@
                             ="ZIP CODE
                             "
                         Width: =107
+                        X: =11
                         ZIndex: =1
 
                     Searchbox1_4 As text:
@@ -566,6 +567,7 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
                         Width: =134
+                        X: =11
                         Y: =29
                         ZIndex: =2
 
@@ -671,6 +673,7 @@
                         AutoHeight: =true
                         Color: =RGBA(50, 49, 48, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                         OnSelect: =Select(Gallery1)
@@ -688,6 +691,7 @@
                         AutoHeight: =true
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                         OnSelect: =Select(Gallery1)
@@ -705,6 +709,7 @@
                         AutoHeight: =true
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                         OnSelect: =Select(Gallery1)
@@ -723,6 +728,7 @@
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.View
                         FontWeight: =FontWeight.Semibold
                         OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
