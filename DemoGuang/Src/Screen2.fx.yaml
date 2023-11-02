@@ -567,7 +567,6 @@
 
             Container3 As groupContainer.horizontalAutoLayoutContainer:
                 LayoutAlignItems: =LayoutAlignItems.End
-                LayoutJustifyContent: =LayoutJustifyContent.End
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -578,6 +577,22 @@
                 X: =40
                 Y: =40
                 ZIndex: =6
+
+                Label19 As Label:
+                    AlignInContainer: =AlignInContainer.Start
+                    Alignment: =Align.Justify
+                    DisplayMode: =DisplayMode.Edit
+                    FontSize: =13
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =320
+                    PaddingStart: =50
+                    Text: ="ADMISSION STATUAS"
+                    Width: =320
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
 
         FooterContainer2 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -609,6 +624,7 @@
                 ZIndex: =2
 
     Toggle4 As Toggle:
+        Checked: =true
         DisplayMode: =DisplayMode.Edit
         Height: =24
         OffText: ="Show"

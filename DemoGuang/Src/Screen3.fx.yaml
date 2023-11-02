@@ -221,8 +221,8 @@
                         Size: =10.5
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 48
-                        X: =24
-                        Y: =DataCardKey4.Y + DataCardKey4.Height + 4
+                        X: =25
+                        Y: =30
                         ZIndex: =2
 
                     ErrorMessage4 As Label:
