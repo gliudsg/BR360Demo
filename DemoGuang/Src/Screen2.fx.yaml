@@ -590,7 +590,7 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
                     PaddingStart: =50
-                    Text: ="ADMISSION STATUAS"
+                    Text: ="ADMISSION STATUS"
                     Width: =320
                     X: =0
                     Y: =0
