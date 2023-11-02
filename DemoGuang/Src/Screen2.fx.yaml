@@ -690,8 +690,8 @@
         OffText: ="Show"
         OnText: ="Show"
         Width: =88
-        X: =240
-        Y: =305
+        X: =260
+        Y: =345
         ZIndex: =2
 
     Label12 As Label:
