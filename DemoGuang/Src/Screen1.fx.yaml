@@ -470,7 +470,7 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =230
+                        Width: =250
                         X: =30
                         Y: =29
                         ZIndex: =2
