@@ -63,6 +63,7 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
+            Width: =App.Width
             ZIndex: =2
 
             Label11 As Label:
@@ -97,7 +98,7 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                Width: =1400
+                Width: =App.Width
                 ZIndex: =2
 
                 firstnameSearch As groupContainer.manualLayoutContainer:
@@ -236,9 +237,12 @@
                         HoverFill: =RGBA(186, 202, 226, 1)
                         IsSearchable: =false
                         Items: |-
-                            =Distinct(
-                                user_with_status,
-                                program
+                            =Sort(
+                                Distinct(
+                                    user_with_status,
+                                    program
+                                ),
+                                Value
                             )
                         PressedColor: =RGBA(255, 255, 255, 1)
                         PressedFill: =RGBA(0, 18, 107, 1)
@@ -305,7 +309,7 @@
                         SelectionFill: =RGBA(56, 96, 178, 1)
                         Size: =13
                         Width: =251
-                        X: =19
+                        X: =6
                         Y: =29
                         ZIndex: =3
 
@@ -319,6 +323,7 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
+                Width: =App.Width
                 ZIndex: =3
 
                 firstnameSearch_1 As groupContainer.manualLayoutContainer:
@@ -425,6 +430,7 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
+                Width: =App.Width
                 ZIndex: =4
 
                 firstnameSearch_6 As groupContainer.manualLayoutContainer:
@@ -585,6 +591,7 @@
                     ZIndex: =5
 
             Container6 As groupContainer.horizontalAutoLayoutContainer:
+                Height: =40
                 LayoutMinHeight: =40
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -592,10 +599,10 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
+                Width: =App.Width
                 ZIndex: =5
 
             "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.Start
                 BorderColor: =RGBA(0, 18, 107, 1)
                 BorderStyle: =BorderStyle.None
                 DelayItemLoading: =true
@@ -615,7 +622,7 @@
                 ShowNavigation: =true
                 TemplatePadding: =0
                 TemplateSize: =70
-                Width: =1366
+                Width: =App.Width
                 X: =12
                 Y: =137
                 ZIndex: =6
