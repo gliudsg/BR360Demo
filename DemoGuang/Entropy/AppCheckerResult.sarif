@@ -133,6 +133,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1",
+                "type": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Screen1",
+                "type": "Screen1.ScreenContainer1.MainContainer1.Gallery1.Container4.Title7_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen2.ScreenContainer2.MainContainer2.Container8.Gallery7.Rectangle4.AccessibleLabel"
                 }
               ],
