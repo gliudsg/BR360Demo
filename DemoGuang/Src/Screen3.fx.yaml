@@ -147,8 +147,7 @@
                 AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(220, 153, 153, 1)
                 DataSource: =user_address
-                DefaultMode: =If(newMode2, FormMode.New, editMode2, FormMode.Edit, FormMode.View)
-                Fill: =RGBA(238, 204, 204, 1)
+                Fill: =RGBA(255, 255, 255, 1)
                 Item: =LookUp(user_address, id = Gallery1.Selected.id)
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
@@ -553,40 +552,17 @@
                 RadiusTopRight: =4
                 ZIndex: =2
 
-                Icon3_2 As icon.Edit:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Edit
-                    OnSelect: |-
-                        =UpdateContext({ selectedRecord: Gallery1.Selected, editMode2: true })
-                    X: =828
-                    Y: =408
-                    ZIndex: =1
-
-                Icon5_2 As icon.Cancel:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Cancel
-                    OnSelect: |-
-                        =ResetForm(Form1); UpdateContext({ editMode2: false, newMode2: false });
-                    X: =79
-                    Y: =408
-                    ZIndex: =3
-
-                Icon4_2 As icon.Check:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Check
+                Button1 As Button:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =50
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
                     OnSelect: =SubmitForm(Form1)
-                    X: =151
-                    Y: =408
-                    ZIndex: =4
+                    Text: ="Save"
+                    Width: =120
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
 
         FooterContainer3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
