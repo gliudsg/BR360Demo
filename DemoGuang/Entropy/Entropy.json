@@ -163,7 +163,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/02/2023 17:57:18",
+  "HeaderLastSavedDateTimeUTC": "11/02/2023 17:59:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "be856c47-14e0-44bd-8433-ef3d1e802006": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-959dac53-2dbe-471b-871f-5cedaf90c0ad\""
@@ -1070,7 +1070,7 @@
     "Label6_1": 16,
     "Label7": 148,
     "Label8": 46,
-    "Label8_1": 42,
+    "Label8_1": 41,
     "lastname_DataCard3_1": 71,
     "lastnameSearch": 9,
     "mail_address_DataCard1": 128,
@@ -1112,7 +1112,7 @@
     "Subtitle7": 44,
     "Title4": 92,
     "Title7": 43,
-    "Title7_1": 43,
+    "Title7_1": 42,
     "Toggle4": 97
   },
   "ResourcesJsonIndices": {

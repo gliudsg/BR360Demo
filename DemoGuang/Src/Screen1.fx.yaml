@@ -727,6 +727,7 @@
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisplayMode: =DisplayMode.View
+                        FillPortions: =1
                         FontWeight: =FontWeight.Semibold
                         OnSelect: =Select(Gallery1)
                         PaddingBottom: =0
@@ -790,7 +791,7 @@
         Text: |-
             ="BR #"
         Width: =110
-        X: =228
+        X: =241
         Y: =350
         ZIndex: =4
 
@@ -801,7 +802,7 @@
         Height: =32
         Text: ="First Name"
         Width: =320
-        X: =539
+        X: =418
         Y: =350
         ZIndex: =5
 
@@ -812,7 +813,7 @@
         Height: =32
         Text: ="Last Name"
         Width: =320
-        X: =692
+        X: =592
         Y: =350
         ZIndex: =6
 
@@ -823,7 +824,7 @@
         Height: =32
         Text: ="Program"
         Width: =320
-        X: =843
+        X: =765
         Y: =350
         ZIndex: =7
 
@@ -834,7 +835,7 @@
         Height: =32
         Text: ="Ad. Status"
         Width: =320
-        X: =993
+        X: =933
         Y: =350
         ZIndex: =8
 
