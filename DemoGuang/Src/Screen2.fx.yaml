@@ -20,6 +20,40 @@
         Width: =Parent.Width
         ZIndex: =1
 
+        HeaderContainer2_3 As groupContainer.horizontalAutoLayoutContainer:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =40
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+            Image1_3 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FillPortions: =1
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: ='header-background'
+                ImagePosition: =ImagePosition.Fill
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =20
+                Y: =20
+                ZIndex: =2
+
         HeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
             BorderColor: =RGBA(255, 255, 255, 1)
             DropShadow: =DropShadow.Light
@@ -41,16 +75,16 @@
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(255, 255, 255, 1)
+                FillColor: =If(App.ActiveScreen.Name = "Screen2",RGBA(0, 0, 139, 8),RGBA(0,128,187,1))
                 FillPortions: =1
-                FontWeight: =FontWeight.Bold
+                FontWeight: =FontWeight.Normal
                 Height: =75
                 LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen1)
                 PressedBorderColor: =RGBA(0, 121, 187, 1)
                 Text: ="Main Menu"
-                TextColor: =RGBA(0, 120, 212, 1)
+                TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
                 X: =0
                 Y: =0
@@ -62,15 +96,15 @@
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(255, 255, 255, 1)
+                FillColor: =If(App.ActiveScreen.Name = "Screen2",RGBA(0,128,187,1),RGBA(0, 0, 139, 8))
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen2)
-                Text: ="Basic Info"
-                TextColor: =RGBA(0, 120, 212, 1)
+                Text: ="Basic Information"
+                TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
                 X: =0
                 Y: =0
@@ -82,7 +116,7 @@
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
                 DisplayMode: =DisplayMode.Edit
-                FillColor: =RGBA(255, 255, 255, 1)
+                FillColor: =RGBA(0, 0, 139, 8)
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
@@ -90,7 +124,7 @@
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen3)
                 Text: ="Personal Info"
-                TextColor: =RGBA(0, 120, 212, 1)
+                TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
                 X: =0
                 Y: =0
@@ -112,11 +146,11 @@
             Form2_1 As form:
                 AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(0, 18, 107, 1)
-                BorderStyle: =BorderStyle.Dashed
+                BorderStyle: =BorderStyle.None
                 BorderThickness: =1
                 DataSource: =users
-                DefaultMode: =If(newMode, FormMode.New, editMode, FormMode.Edit, FormMode.View)
-                Fill: =RGBA(238, 204, 204, 1)
+                DefaultMode: =FormMode.View
+                Fill: =RGBA(255, 255, 255, 1)
                 Height: =221
                 Item: |
                     =LookUp(users, ID = Gallery1.Selected.id)
@@ -151,8 +185,9 @@
                         Color: =RGBA(0, 18, 107, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         Height: =34
+                        PaddingBottom: =0
                         Size: =13
-                        Text: ="Customer ID"
+                        Text: ="ID"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =30
@@ -531,7 +566,6 @@
                         ZIndex: =4
 
             Container3 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.Light
                 LayoutAlignItems: =LayoutAlignItems.End
                 LayoutJustifyContent: =LayoutJustifyContent.End
                 LayoutMinHeight: =100
@@ -544,41 +578,6 @@
                 X: =40
                 Y: =40
                 ZIndex: =6
-
-                Icon3_1 As icon.Edit:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Edit
-                    OnSelect: |-
-                        =UpdateContext({ selectedRecord: Gallery1.Selected, editMode: true })
-                    X: =920
-                    Y: =408
-                    ZIndex: =2
-
-                Icon5_1 As icon.Cancel:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Cancel
-                    OnSelect: |-
-                        =ResetForm(Form2_1); UpdateContext({ editMode: false, newMode: false });
-                    X: =171
-                    Y: =408
-                    ZIndex: =3
-
-                Icon4_1 As icon.Check:
-                    BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 18, 107, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledColor: =RGBA(244, 244, 244, 1)
-                    Icon: =Icon.Check
-                    OnSelect: =SubmitForm([@Form2_1])
-                    X: =243
-                    Y: =408
-                    ZIndex: =4
 
         FooterContainer2 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -611,10 +610,12 @@
 
     Toggle4 As Toggle:
         DisplayMode: =DisplayMode.Edit
-        Height: =27
-        Width: =68
-        X: =250
-        Y: =225
+        Height: =24
+        OffText: ="Show"
+        OnText: ="Show"
+        Width: =88
+        X: =240
+        Y: =305
         ZIndex: =2
 
     Label12 As Label:
@@ -630,4 +631,16 @@
         X: =28
         Y: =692
         ZIndex: =3
+
+    Label13_1 As Label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =16
+        FontWeight: =FontWeight.Bold
+        Height: =43
+        Text: ="Member Management"
+        Width: =320
+        X: =44
+        Y: =36
+        ZIndex: =4
 
