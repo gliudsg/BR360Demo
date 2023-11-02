@@ -421,7 +421,6 @@
                         ZIndex: =2
 
             Container7_1 As groupContainer.horizontalAutoLayoutContainer:
-                FillPortions: =0
                 Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
@@ -522,21 +521,21 @@
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
                         Size: =13
-                        Width: =194
+                        Width: |+
+                            =Parent.Width -10
+                            
                         Y: =29
                         ZIndex: =2
 
                 firstnameSearch_4 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
+                    BorderStyle: =BorderStyle.None
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =60
                     LayoutMinHeight: =60
                     LayoutMinWidth: =250
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
+                    PaddingLeft: =10
                     Width: =168
                     X: =23
                     Y: =196
@@ -568,8 +567,9 @@
                         HoverBorderColor: =RGBA(0, 18, 107, 1)
                         HoverColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(186, 202, 226, 1)
+                        PaddingLeft: =25
                         Size: =13
-                        Width: =152
+                        Width: =Parent.Width -10
                         Y: =29
                         ZIndex: =2
 
@@ -592,6 +592,7 @@
 
             Container6 As groupContainer.horizontalAutoLayoutContainer:
                 Height: =40
+                LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutMinHeight: =40
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
@@ -634,7 +635,7 @@
                     LayoutMode: =LayoutMode.Auto
                     LayoutWrap: =true
                     PaddingLeft: =60
-                    Width: =1270
+                    Width: =Parent.Width
                     ZIndex: =9
 
                     Label8_1 As label:
