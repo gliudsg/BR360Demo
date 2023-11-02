@@ -9,6 +9,7 @@
     "ConnectedDataSourceInfoNameMapping": {
       "57dfb1b5-7d79-4046-a4da-fd831d5befe1-KeyId": "KeyId",
       "accountstatus": "accountstatus",
+      "br": "br",
       "firstname": "firstname",
       "id": "id",
       "lastname": "lastname",
