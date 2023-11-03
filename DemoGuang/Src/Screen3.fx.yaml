@@ -144,7 +144,7 @@
                 OnFailure: =Notify("Cannot save. Please check if there are errors in the form.", NotificationType.Error)
                 OnSuccess: |-
                     =UpdateContext({ CurrentItem: Self.LastSubmit, editMode2: false, newMode2: false })
-                Width: =1300
+                Width: =App.Width
                 ZIndex: =1
 
                 id_DataCard1 As typedDataCard.pcfCoreNumberEditCard:
@@ -593,7 +593,7 @@
             Copyright 2023 Benjamin Rose Institute on Aging"""
         Width: =320
         X: =28
-        Y: =692
+        Y: =App.Height -80
         ZIndex: =2
 
     Label13_2 As Label:
