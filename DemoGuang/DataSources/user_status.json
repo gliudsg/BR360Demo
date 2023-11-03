@@ -8,7 +8,9 @@
     },
     "ConnectedDataSourceInfoNameMapping": {
       "accountstatus": "accountstatus",
+      "Site": "Site",
       "status": "status",
+      "StatusDate": "StatusDate",
       "user_id": "user_id"
     },
     "DatasetName": "guangpowerapp.database.windows.net,powerapptest",
