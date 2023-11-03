@@ -710,7 +710,7 @@
                 Items: |-
                     =Filter(
                         user_with_status,
-                        Searchbox1.Text in firstname && Searchbox2.Text in lastname && (ComboBox1.Selected.Value = Blank() ||  ComboBox1.Selected.Value in program)
+                        Searchbox1.Text in firstname && Searchbox2.Text in lastname && (ComboBox1.Selected.Value = Blank() || ComboBox1.Selected.Value in program)
                     )
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
