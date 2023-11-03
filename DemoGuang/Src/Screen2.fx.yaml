@@ -141,7 +141,7 @@
                 DataSource: =users
                 DefaultMode: =FormMode.View
                 Fill: =RGBA(255, 255, 255, 1)
-                FillPortions: =4
+                FillPortions: =12
                 Height: =221
                 Item: |
                     =LookUp(users, ID = Gallery1.Selected.id)
@@ -564,9 +564,10 @@
             Container3 As groupContainer.horizontalAutoLayoutContainer:
                 Height: =30
                 LayoutAlignItems: =LayoutAlignItems.End
-                LayoutMinHeight: =30
-                LayoutMinWidth: =250
+                LayoutMinHeight: =40
+                LayoutMinWidth: =App.Width
                 LayoutMode: =LayoutMode.Auto
+                PaddingLeft: =40
                 RadiusBottomLeft: =4
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
@@ -576,16 +577,14 @@
                 ZIndex: =2
 
                 Label19 As Label:
-                    AlignInContainer: =AlignInContainer.Start
-                    Alignment: =Align.Justify
                     AutoHeight: =true
                     DisplayMode: =DisplayMode.Edit
-                    FontSize: =13
+                    Font: =Font.'Lato Black'
+                    FontSize: =17
                     FontWeight: =FontWeight.Bold
                     Height: =32
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
-                    PaddingStart: =50
                     Text: ="ADMISSION STATUS"
                     Width: =320
                     X: =0
@@ -595,9 +594,8 @@
             Container3_1 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.Start
                 Height: =30
-                LayoutAlignItems: =LayoutAlignItems.End
                 LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
-                LayoutMinHeight: =30
+                LayoutMinHeight: =40
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 PaddingLeft: =40
@@ -607,9 +605,10 @@
                 RadiusTopRight: =4
                 Width: =App.Width
                 Y: =40
-                ZIndex: =3
+                ZIndex: =4
 
                 Label24 As Label:
+                    AutoHeight: =true
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =2
                     Height: =32
@@ -621,6 +620,7 @@
                     ZIndex: =1
 
                 Label25 As Label:
+                    AutoHeight: =true
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -632,6 +632,7 @@
                     ZIndex: =2
 
                 Label26 As Label:
+                    AutoHeight: =true
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -643,6 +644,7 @@
                     ZIndex: =3
 
                 Label27 As Label:
+                    AutoHeight: =true
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -654,24 +656,30 @@
                     ZIndex: =4
 
             Container8 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
-                FillPortions: =4
+                FillPortions: =12
                 LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 RadiusBottomLeft: =4
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
                 Width: =App.Width
-                ZIndex: =4
+                ZIndex: =5
 
                 Gallery7 As gallery.BrowseLayout_Vertical_TwoTextOneImageVariant_pcfCore:
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =RGBA(166, 166, 166, 1)
                     DelayItemLoading: =true
                     FocusedBorderColor: =RGBA(0, 120, 212, 1)
                     FocusedBorderThickness: =2
                     Items: =user_basicInfo
                     Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =48
@@ -693,6 +701,8 @@
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =2
                             Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
                             Text: =ThisItem.program
                             Width: =320
                             X: =0
@@ -703,6 +713,8 @@
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
                             Text: =ThisItem.site
                             Width: =320
                             X: =0
@@ -713,6 +725,8 @@
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
                             Text: =ThisItem.StatusDate
                             Width: =320
                             X: =0
@@ -723,6 +737,8 @@
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
                             Text: =ThisItem.status
                             Width: =320
                             X: =0
@@ -780,7 +796,7 @@
             Copyright 2023 Benjamin Rose Institute on Aging"""
         Width: =320
         X: =28
-        Y: =692
+        Y: =App.Height -80
         ZIndex: =3
 
     Label13_1 As Label:

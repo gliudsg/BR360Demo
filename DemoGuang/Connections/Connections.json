@@ -5,10 +5,9 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "apiVer": 2,
         "appVer": "3.23102.20",
-        "modifiedOn": "2023-11-03 04:57:40",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_status]\":[\"get\"],\"[dbo].[user_with_status]\":[\"get\"]}}",
+        "modifiedOn": "2023-11-03 05:24:26",
+        "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sql/icon.png",
