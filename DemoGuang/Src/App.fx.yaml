@@ -6,7 +6,7 @@ App As appinfo:
             User()
         );
         
-        Set(VarSetSSN,false)
+        Set(VarSetSSN,RGBA(0,128,187,1))
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
