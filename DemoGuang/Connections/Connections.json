@@ -7,7 +7,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23102.20",
-        "modifiedOn": "2023-11-03 05:39:46",
+        "modifiedOn": "2023-11-03 05:45:20",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },
