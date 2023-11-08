@@ -1,7 +1,7 @@
-"Screen1 As screen.'autoLayout_HeaderFooter_ver1.0'":
+"USEAUTOMATE As screen.'autoLayout_HeaderFooter_ver1.0'":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
@@ -20,7 +20,7 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer2_1 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainer2_5 As groupContainer.horizontalAutoLayoutContainer:
             BorderColor: =RGBA(255, 255, 255, 1)
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
@@ -35,7 +35,7 @@
             RadiusTopRight: =8
             ZIndex: =1
 
-            Image1_2 As image:
+            Image1_5 As image:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -52,7 +52,7 @@
                 Y: =20
                 ZIndex: =2
 
-        MainContainer1 As groupContainer.verticalAutoLayoutContainer:
+        MainContainer1_1 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
@@ -66,7 +66,7 @@
             Width: =App.Width
             ZIndex: =2
 
-            Label11 As Label:
+            Label11_1 As Label:
                 AlignInContainer: =AlignInContainer.Start
                 Alignment: =Align.Left
                 AutoHeight: =true
@@ -87,7 +87,7 @@
                 Y: =0
                 ZIndex: =1
 
-            Container2 As groupContainer.horizontalAutoLayoutContainer:
+            Container2_1 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 BorderStyle: =BorderStyle.None
                 Height: =70
@@ -101,7 +101,7 @@
                 Width: =App.Width
                 ZIndex: =2
 
-                firstnameSearch As groupContainer.manualLayoutContainer:
+                firstnameSearch_5 As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =60
@@ -116,7 +116,7 @@
                     Y: =196
                     ZIndex: =1
 
-                    Label5 As label:
+                    Label5_7 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -128,7 +128,7 @@
                         X: =30
                         ZIndex: =1
 
-                    Searchbox1 As text:
+                    Searchbox1_6 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -148,7 +148,7 @@
                         Y: =29
                         ZIndex: =2
 
-                lastnameSearch As groupContainer.manualLayoutContainer:
+                lastnameSearch_1 As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
@@ -163,7 +163,7 @@
                     Y: =196
                     ZIndex: =2
 
-                    Label5_1 As label:
+                    Label5_8 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -175,7 +175,7 @@
                         X: =14
                         ZIndex: =1
 
-                    Searchbox2 As text:
+                    Searchbox2_1 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -194,7 +194,7 @@
                         Y: =29
                         ZIndex: =2
 
-                programDropDown As groupContainer.manualLayoutContainer:
+                programDropDown_2 As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
@@ -209,7 +209,7 @@
                     Y: =196
                     ZIndex: =3
 
-                    Label6 As label:
+                    Label6_2 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -221,7 +221,7 @@
                         X: =12
                         ZIndex: =1
 
-                    ComboBox1 As combobox:
+                    ComboBox1_2 As combobox:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         ChevronBackground: =RGBA(56, 96, 178, 1)
                         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -255,7 +255,7 @@
                         Y: =29
                         ZIndex: =3
 
-                programDropDown_1 As groupContainer.manualLayoutContainer:
+                programDropDown_3 As groupContainer.manualLayoutContainer:
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =99
@@ -270,7 +270,7 @@
                     Y: =196
                     ZIndex: =4
 
-                    Label6_1 As label:
+                    Label6_3 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -282,7 +282,7 @@
                         X: =19
                         ZIndex: =1
 
-                    ComboBox1_1 As combobox:
+                    ComboBox1_3 As combobox:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         ChevronBackground: =RGBA(56, 96, 178, 1)
                         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -313,7 +313,7 @@
                         Y: =29
                         ZIndex: =3
 
-            Container7 As groupContainer.horizontalAutoLayoutContainer:
+            Container7_2 As groupContainer.horizontalAutoLayoutContainer:
                 Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
@@ -325,7 +325,7 @@
                 Width: =App.Width
                 ZIndex: =3
 
-                firstnameSearch_1 As groupContainer.manualLayoutContainer:
+                firstnameSearch_8 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
@@ -341,7 +341,7 @@
                     Y: =196
                     ZIndex: =1
 
-                    Label5_2 As label:
+                    Label5_9 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -353,7 +353,7 @@
                         X: =30
                         ZIndex: =1
 
-                    Searchbox1_1 As text:
+                    Searchbox1_7 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -372,7 +372,7 @@
                         Y: =29
                         ZIndex: =2
 
-                firstnameSearch_2 As groupContainer.manualLayoutContainer:
+                firstnameSearch_9 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
@@ -388,7 +388,7 @@
                     Y: =196
                     ZIndex: =3
 
-                    Label5_3 As label:
+                    Label5_10 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -400,7 +400,7 @@
                         X: =48
                         ZIndex: =1
 
-                    Searchbox1_2 As text:
+                    Searchbox1_8 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -419,7 +419,7 @@
                         Y: =29
                         ZIndex: =2
 
-            Container7_1 As groupContainer.horizontalAutoLayoutContainer:
+            Container7_3 As groupContainer.horizontalAutoLayoutContainer:
                 Height: =70
                 LayoutMinHeight: =70
                 LayoutMinWidth: =250
@@ -431,7 +431,7 @@
                 Width: =App.Width
                 ZIndex: =4
 
-                firstnameSearch_6 As groupContainer.manualLayoutContainer:
+                firstnameSearch_10 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
@@ -448,7 +448,7 @@
                     Y: =196
                     ZIndex: =1
 
-                    Label5_6 As label:
+                    Label5_11 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -460,7 +460,7 @@
                         X: =30
                         ZIndex: =1
 
-                    Searchbox1_5 As text:
+                    Searchbox1_9 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -479,7 +479,7 @@
                         Y: =29
                         ZIndex: =2
 
-                firstnameSearch_3 As groupContainer.manualLayoutContainer:
+                firstnameSearch_11 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
@@ -495,7 +495,7 @@
                     Y: =196
                     ZIndex: =2
 
-                    Label5_4 As label:
+                    Label5_12 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -506,7 +506,7 @@
                         Width: =107
                         ZIndex: =1
 
-                    Searchbox1_3 As text:
+                    Searchbox1_10 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -526,7 +526,7 @@
                         Y: =29
                         ZIndex: =2
 
-                firstnameSearch_4 As groupContainer.manualLayoutContainer:
+                firstnameSearch_12 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     BorderStyle: =BorderStyle.None
@@ -540,7 +540,7 @@
                     Y: =196
                     ZIndex: =3
 
-                    Label5_5 As label:
+                    Label5_13 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -553,7 +553,7 @@
                         Width: =107
                         ZIndex: =1
 
-                    Searchbox1_4 As text:
+                    Searchbox1_11 As text:
                         BorderColor: =RGBA(0, 18, 107, 1)
                         BorderThickness: =2
                         Color: =RGBA(0, 0, 0, 1)
@@ -572,7 +572,7 @@
                         Y: =29
                         ZIndex: =2
 
-                firstnameSearch_7 As groupContainer.manualLayoutContainer:
+                firstnameSearch_13 As groupContainer.manualLayoutContainer:
                     AlignInContainer: =AlignInContainer.Start
                     BorderColor: =RGBA(220, 153, 153, 1)
                     Fill: =RGBA(255, 255, 255, 1)
@@ -589,7 +589,7 @@
                     Y: =196
                     ZIndex: =5
 
-            Container6 As groupContainer.horizontalAutoLayoutContainer:
+            Container6_1 As groupContainer.horizontalAutoLayoutContainer:
                 Height: =40
                 LayoutAlignItems: =LayoutAlignItems.Stretch
                 LayoutMinHeight: =40
@@ -603,7 +603,7 @@
                 Width: =App.Width
                 ZIndex: =5
 
-                Label10 As Label:
+                Label10_1 As Label:
                     AlignInContainer: =AlignInContainer.Start
                     Alignment: =Align.Justify
                     Color: =
@@ -620,7 +620,7 @@
                     Y: =350
                     ZIndex: =1
 
-                Label14 As Label:
+                Label14_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -636,7 +636,7 @@
                     Y: =350
                     ZIndex: =2
 
-                Label15 As Label:
+                Label15_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -651,7 +651,7 @@
                     Y: =350
                     ZIndex: =3
 
-                Label16 As Label:
+                Label16_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -666,7 +666,7 @@
                     Y: =350
                     ZIndex: =4
 
-                Label17 As Label:
+                Label17_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -681,7 +681,7 @@
                     Y: =350
                     ZIndex: =5
 
-                Label18 As Label:
+                Label18_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -696,7 +696,7 @@
                     Y: =350
                     ZIndex: =6
 
-                Label9 As Label:
+                Label9_1 As Label:
                     Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
@@ -709,7 +709,7 @@
                     Y: =0
                     ZIndex: =7
 
-            "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+            "Gallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
                 BorderColor: =RGBA(0, 18, 107, 1)
                 BorderStyle: =BorderStyle.None
                 DelayItemLoading: =true
@@ -717,13 +717,8 @@
                 Height: =500
                 Items: |-
                     =Filter(
-                        AddColumns(users, 
-                            "Status", LookUp(user_status, user_id = ID).status, 
-                            "AccountStatus", LookUp(user_status, user_id = ID).accountstatus
-                        ),
-                        Searchbox1.Text in firstname && 
-                        Searchbox2.Text in lastname && 
-                        (ComboBox1.Selected.Value = Blank() || ComboBox1.Selected.Value in program)
+                        QueryTable,
+                        Searchbox1_6.Text in firstname && Searchbox2_1.Text in lastname && (ComboBox1_2.Selected.Value = Blank() || ComboBox1_2.Selected.Value in program)
                     )
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
@@ -739,8 +734,8 @@
                 Y: =137
                 ZIndex: =6
 
-                Container4 As groupContainer.horizontalAutoLayoutContainer:
-                    Fill: =If(ThisItem.AccountStatus,RGBA(0, 0, 0, 0),Color.PaleVioletRed)
+                Container4_1 As groupContainer.horizontalAutoLayoutContainer:
+                    Fill: =If(ThisItem.accountstatus,RGBA(0, 0, 0, 0),Color.PaleVioletRed)
                     Height: =70
                     LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutMode: =LayoutMode.Auto
@@ -749,51 +744,51 @@
                     Width: =Parent.Width
                     ZIndex: =9
 
-                    Label8_1 As label:
+                    Label8_2 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FillPortions: =1
                         FontWeight: =FontWeight.Semibold
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =13
                         Text: |
-                            =ThisItem.ID
+                            =ThisItem.id
                         VerticalAlign: =VerticalAlign.Top
                         Y: =40
                         ZIndex: =1
 
-                    Title7_1 As label:
+                    Title7_2 As label:
                         AutoHeight: =true
                         Color: =RGBA(50, 49, 48, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =13
-                        Text: =ThisItem.BR
+                        Text: =ThisItem.br
                         VerticalAlign: =VerticalAlign.Top
                         Y: =40
                         ZIndex: =2
 
-                    Title7 As label:
+                    Title7_3 As label:
                         AutoHeight: =true
                         Color: =RGBA(50, 49, 48, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -804,14 +799,14 @@
                         Y: =40
                         ZIndex: =4
 
-                    Subtitle7 As label:
+                    Subtitle7_1 As label:
                         AutoHeight: =true
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -822,14 +817,14 @@
                         Y: =40
                         ZIndex: =5
 
-                    Body2 As label:
+                    Body2_1 As label:
                         AutoHeight: =true
                         Color: =RGBA(0, 0, 0, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -840,7 +835,7 @@
                         Y: =40
                         ZIndex: =6
 
-                    Label8 As label:
+                    Label8_3 As label:
                         AutoHeight: =true
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(0, 0, 0, 1)
@@ -848,18 +843,18 @@
                         DisplayMode: =DisplayMode.View
                         FillPortions: =1
                         FontWeight: =FontWeight.Semibold
-                        OnSelect: =Select(Gallery1)
+                        OnSelect: =Select(Gallery1_1)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =13
-                        Text: =ThisItem.Status
+                        Text: =ThisItem.status
                         VerticalAlign: =VerticalAlign.Top
                         Y: =40
                         ZIndex: =7
 
-                    NextArrow7 As icon.ChevronRight:
+                    NextArrow7_1 As icon.ChevronRight:
                         AccessibleLabel: =Self.Tooltip
                         BorderColor: =RGBA(0, 18, 107, 1)
                         Color: =RGBA(166, 166, 166, 1)
@@ -876,18 +871,6 @@
                         PaddingTop: =16
                         Tooltip: ="View item details"
                         Width: =50
-                        Y: =(Gallery1.TemplateHeight / 2) - (Self.Height / 2)
+                        Y: =(Gallery1_1.TemplateHeight / 2) - (Self.Height / 2)
                         ZIndex: =8
-
-    Label13 As Label:
-        Color: =RGBA(255, 255, 255, 1)
-        DisplayMode: =DisplayMode.Edit
-        FontSize: =16
-        FontWeight: =FontWeight.Bold
-        Height: =43
-        Text: ="Member Management"
-        Width: =320
-        X: =44
-        Y: =36
-        ZIndex: =2
 

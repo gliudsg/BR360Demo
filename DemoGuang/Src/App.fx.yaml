@@ -5,8 +5,19 @@ App As appinfo:
             varUser,
             User()
         );
-        
-        Set(VarSetSSN,RGBA(0,128,187,1))
+        Set(
+            VarSetSSN,
+            RGBA(
+                0,
+                128,
+                187,
+                1
+            )
+        );
+        Set(
+            QueryTable,
+            SQLQureyMainTable.Run()
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

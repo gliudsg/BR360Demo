@@ -7,7 +7,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23104.18",
-        "modifiedOn": "2023-11-08 15:14:02",
+        "modifiedOn": "2023-11-08 15:20:58",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },
@@ -59,6 +59,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "b89037e8-f97e-495e-b7d3-6565cc3efe48": {
+          "value": "shared_sql"
+        },
         "workflowEntityId": {
           "value": "44696cb9-957d-ee11-8179-000d3a1ba416"
         },
@@ -67,6 +70,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_sql": {
+          "value": "b89037e8-f97e-495e-b7d3-6565cc3efe48"
+        },
         "workflowEntityId": {
           "value": "44696cb9-957d-ee11-8179-000d3a1ba416"
         },
