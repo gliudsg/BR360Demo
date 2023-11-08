@@ -51,52 +51,6 @@
     ],
     "id": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
   },
-  "91f5a2be-3995-4a4f-8618-fca7aa98cfc7": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {
-          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
-        },
-        "workflowName": {
-          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {
-          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
-        },
-        "workflowName": {
-          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "BR360UC02EventBaseFlow"
-    ],
-    "dependencies": {
-      "shared_office365": "b80af89a-79d4-4973-8c1b-0fe85fc264e4"
-    },
-    "dependents": [],
-    "id": "91f5a2be-3995-4a4f-8618-fca7aa98cfc7"
-  },
-  "b80af89a-79d4-4973-8c1b-0fe85fc264e4": {
-    "connectionRef": {
-      "displayName": "Office 365 Outlook",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_office365"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "91f5a2be-3995-4a4f-8618-fca7aa98cfc7"
-    ],
-    "id": "b80af89a-79d4-4973-8c1b-0fe85fc264e4"
-  },
   "b89037e8-f97e-495e-b7d3-6565cc3efe48": {
     "connectionRef": {
       "authenticationType": "sqlAuthentication",
@@ -105,7 +59,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23104.18",
-        "modifiedOn": "2023-11-08 20:07:47",
+        "modifiedOn": "2023-11-08 20:10:32",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_status]\":[\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },
@@ -188,5 +142,57 @@
     },
     "dependents": [],
     "id": "bd23554d-1775-4999-bec3-b99fedd36f91"
+  },
+  "c03fdee3-89d0-4201-b5b0-13a9a6155d2e": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "c4918ca8-730b-459c-b99a-6d990d7735f6": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {
+          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "c4918ca8-730b-459c-b99a-6d990d7735f6"
+        },
+        "workflowEntityId": {
+          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "BR360UC02EventBaseFlow"
+    ],
+    "dependencies": {
+      "shared_office365": "c4918ca8-730b-459c-b99a-6d990d7735f6"
+    },
+    "dependents": [],
+    "id": "c03fdee3-89d0-4201-b5b0-13a9a6155d2e"
+  },
+  "c4918ca8-730b-459c-b99a-6d990d7735f6": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "c03fdee3-89d0-4201-b5b0-13a9a6155d2e"
+    ],
+    "id": "c4918ca8-730b-459c-b99a-6d990d7735f6"
   }
 }
