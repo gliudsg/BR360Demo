@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "26f1145d-5e25-4053-a531-c770340a7a0a",
+    "Name": "BR360UC02EventBaseFlow",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "c0498af2-537e-ee11-8179-000d3a1ba416"
+  }
+]

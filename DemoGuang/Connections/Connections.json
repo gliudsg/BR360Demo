@@ -1,4 +1,102 @@
 {
+  "0f1338be-caf3-4da8-8ce8-fc1491423b4c": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "73a24e87-913a-4ad3-a8f9-2e28e6038baa": {
+          "value": "shared_teams"
+        },
+        "workflowEntityId": {
+          "value": "0be5a35c-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "9aa8238b-62f1-6450-69f5-2db3e7b693b9"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_teams": {
+          "value": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
+        },
+        "workflowEntityId": {
+          "value": "0be5a35c-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "9aa8238b-62f1-6450-69f5-2db3e7b693b9"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "NotifyauserinTeams"
+    ],
+    "dependencies": {
+      "shared_teams": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
+    },
+    "dependents": [],
+    "id": "0f1338be-caf3-4da8-8ce8-fc1491423b4c"
+  },
+  "4d5c751e-792b-4140-9354-df0ad50c3d68": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "c0498af2-537e-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "c774be2a-6b8e-26ce-4d59-38a4c11a2b33"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "BR360UC02EventBaseFlow"
+    ],
+    "dependencies": {
+      "shared_office365": "a527e20e-9527-4c61-a9a3-a343298d6f82"
+    },
+    "dependents": [],
+    "id": "4d5c751e-792b-4140-9354-df0ad50c3d68"
+  },
+  "73a24e87-913a-4ad3-a8f9-2e28e6038baa": {
+    "connectionRef": {
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1657/1.0.1657.3443/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "0f1338be-caf3-4da8-8ce8-fc1491423b4c"
+    ],
+    "id": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
+  },
+  "a527e20e-9527-4c61-a9a3-a343298d6f82": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "4d5c751e-792b-4140-9354-df0ad50c3d68"
+    ],
+    "id": "a527e20e-9527-4c61-a9a3-a343298d6f82"
+  },
   "b89037e8-f97e-495e-b7d3-6565cc3efe48": {
     "connectionRef": {
       "authenticationType": "sqlAuthentication",
@@ -7,8 +105,8 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23104.18",
-        "modifiedOn": "2023-11-08 15:20:58",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
+        "modifiedOn": "2023-11-08 16:36:02",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_status]\":[\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sql/icon.png",

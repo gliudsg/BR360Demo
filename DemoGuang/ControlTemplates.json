@@ -42,6 +42,21 @@
     "OverridableProperties": {},
     "Version": "2.4.0"
   },
+  "Date picker": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_DatePicker",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_DatePicker",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Date picker",
+    "Version": "1.5.1"
+  },
   "form": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

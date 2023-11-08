@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "9aa8238b-62f1-6450-69f5-2db3e7b693b9",
+    "Name": "NotifyauserinTeams",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "0be5a35c-537e-ee11-8179-000d3a1ba416"
+  }
+]

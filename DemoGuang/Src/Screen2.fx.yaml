@@ -162,7 +162,7 @@
                 FillPortions: =12
                 Height: =221
                 Item: |
-                    =LookUp(users, ID = Gallery1.Selected.id)
+                    =LookUp(users, ID = Gallery1.Selected.ID)
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
                 NumberOfColumns: =4

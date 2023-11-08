@@ -150,20 +150,317 @@
             RadiusTopRight: =8
             ZIndex: =3
 
+            Form2 As form:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                DataSource: =users
+                FillPortions: =0
+                Height: =100
+                Item: =LookUp(users, ID = Gallery1.Selected.ID)
+                LayoutMinHeight: =50
+                LayoutMinWidth: =400
+                NumberOfColumns: =4
+                ZIndex: =1
+
+                firstname_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="firstname"
+                    Default: =ThisItem.firstname
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@users],DataSourceInfo.DisplayName,"firstname")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =70
+                    MaxLength: =DataSourceInfo([@users], DataSourceInfo.MaxLength, "firstname")
+                    Required: =false
+                    Update: =DataCardValue6.Value
+                    Width: =333
+                    WidthFit: =true
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
+
+                    DataCardKey6 As Label:
+                        AutoHeight: =true
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =22
+                        Text: =Parent.DisplayName
+                        Tooltip: =Parent.DisplayName
+                        VerticalAlignment: =VerticalAlign.Bottom
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =10
+                        ZIndex: =1
+
+                    "DataCardValue6 As 'Text box'":
+                        AccessibleLabel: =Parent.DisplayName
+                        DisplayMode: =Parent.DisplayMode
+                        FontSize: =10.5
+                        Height: =32
+                        Mode: ="SingleLine"
+                        Required: =Parent.Required
+                        Tooltip: =Parent.DisplayName
+                        Value: =Parent.Default
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                        ZIndex: =2
+
+                    ErrorMessage6 As Label:
+                        AutoHeight: =true
+                        Color: =Color.Red
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =30
+                        Text: =Parent.Error
+                        Tooltip: =Parent.Error
+                        Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =DataCardValue6.Y + DataCardValue6.Height
+                        ZIndex: =3
+
+                    StarVisible6 As Label:
+                        Alignment: =Align.Center
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        X: =0
+                        Y: =DataCardKey6.Y
+                        ZIndex: =4
+
+                lastname_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="lastname"
+                    Default: =ThisItem.lastname
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@users],DataSourceInfo.DisplayName,"lastname")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =70
+                    MaxLength: =DataSourceInfo([@users], DataSourceInfo.MaxLength, "lastname")
+                    Required: =false
+                    Update: =DataCardValue7.Value
+                    Width: =333
+                    WidthFit: =true
+                    X: =1
+                    Y: =0
+                    ZIndex: =1
+
+                    DataCardKey7 As Label:
+                        AutoHeight: =true
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =22
+                        Text: =Parent.DisplayName
+                        Tooltip: =Parent.DisplayName
+                        VerticalAlignment: =VerticalAlign.Bottom
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =10
+                        ZIndex: =1
+
+                    "DataCardValue7 As 'Text box'":
+                        AccessibleLabel: =Parent.DisplayName
+                        DisplayMode: =Parent.DisplayMode
+                        FontSize: =10.5
+                        Height: =32
+                        Mode: ="SingleLine"
+                        Required: =Parent.Required
+                        Tooltip: =Parent.DisplayName
+                        Value: =Parent.Default
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardKey7.Y + DataCardKey7.Height + 4
+                        ZIndex: =2
+
+                    ErrorMessage8 As Label:
+                        AutoHeight: =true
+                        Color: =Color.Red
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =30
+                        Text: =Parent.Error
+                        Tooltip: =Parent.Error
+                        Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =DataCardValue7.Y + DataCardValue7.Height
+                        ZIndex: =3
+
+                    StarVisible8 As Label:
+                        Alignment: =Align.Center
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        X: =0
+                        Y: =DataCardKey7.Y
+                        ZIndex: =4
+
+                BR_DataCard1 As typedDataCard.pcfCoreTextualEditCard:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="BR"
+                    Default: =ThisItem.BR
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@users],DataSourceInfo.DisplayName,"BR")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =70
+                    MaxLength: =DataSourceInfo([@users], DataSourceInfo.MaxLength, "BR")
+                    Required: =false
+                    Update: =DataCardValue9.Value
+                    Width: =333
+                    WidthFit: =true
+                    X: =2
+                    Y: =0
+                    ZIndex: =1
+
+                    DataCardKey9 As Label:
+                        AutoHeight: =true
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =22
+                        Text: =Parent.DisplayName
+                        Tooltip: =Parent.DisplayName
+                        VerticalAlignment: =VerticalAlign.Bottom
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =10
+                        ZIndex: =1
+
+                    "DataCardValue9 As 'Text box'":
+                        AccessibleLabel: =Parent.DisplayName
+                        DisplayMode: =Parent.DisplayMode
+                        FontSize: =10.5
+                        Height: =32
+                        Mode: ="SingleLine"
+                        Required: =Parent.Required
+                        Tooltip: =Parent.DisplayName
+                        Value: =Parent.Default
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardKey9.Y + DataCardKey9.Height + 4
+                        ZIndex: =2
+
+                    ErrorMessage9 As Label:
+                        AutoHeight: =true
+                        Color: =Color.Red
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =30
+                        Text: =Parent.Error
+                        Tooltip: =Parent.Error
+                        Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =DataCardValue9.Y + DataCardValue9.Height
+                        ZIndex: =3
+
+                    StarVisible9 As Label:
+                        Alignment: =Align.Center
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        X: =0
+                        Y: =DataCardKey9.Y
+                        ZIndex: =4
+
+                dob_DataCard1 As typedDataCard.pcfCoreDateEditCard:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="dob"
+                    Default: =ThisItem.dob
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@users],DataSourceInfo.DisplayName,"dob")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =70
+                    Required: =false
+                    Update: =DataCardValue10.Value
+                    Width: =333
+                    WidthFit: =true
+                    X: =3
+                    Y: =0
+                    ZIndex: =1
+
+                    DataCardKey10 As Label:
+                        AutoHeight: =true
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =22
+                        Text: =Parent.DisplayName
+                        Tooltip: =Parent.DisplayName
+                        VerticalAlignment: =VerticalAlign.Bottom
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =10
+                        ZIndex: =1
+
+                    "DataCardValue10 As 'Date picker'":
+                        AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                        DisplayMode: =Parent.DisplayMode
+                        Height: =32
+                        MaxDate: =Date(Year(Today())+100,1,1)
+                        MinDate: =Date(1900,1,1)
+                        Tooltip: =Parent.DisplayName
+                        Value: =Parent.Default
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardKey10.Y + DataCardKey10.Height + 4
+                        ZIndex: =2
+
+                    ErrorMessage10 As Label:
+                        AutoHeight: =true
+                        Color: =Color.Red
+                        DisplayMode: =DisplayMode.Edit
+                        FontSize: =9
+                        Height: =30
+                        Text: =Parent.Error
+                        Tooltip: =Parent.Error
+                        Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =Parent.Width - 48
+                        Wrap: =true
+                        X: =24
+                        Y: =DataCardValue10.Y + DataCardValue10.Height
+                        ZIndex: =3
+
+                    StarVisible10 As Label:
+                        Alignment: =Align.Center
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        X: =0
+                        Y: =DataCardKey10.Y
+                        ZIndex: =4
+
             Form1 As form:
-                AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(220, 153, 153, 1)
                 DataSource: =user_address
                 Fill: =RGBA(255, 255, 255, 1)
-                Item: =LookUp(user_address, id = Gallery1.Selected.id)
-                LayoutMinHeight: =250
+                FillPortions: =5
+                Item: =LookUp(user_address, id = Gallery1.Selected.ID)
+                LayoutMinHeight: =50
                 LayoutMinWidth: =400
                 NumberOfColumns: =4
                 OnFailure: =Notify("Cannot save. Please check if there are errors in the form.", NotificationType.Error)
                 OnSuccess: |-
                     =UpdateContext({ CurrentItem: Self.LastSubmit, editMode2: false, newMode2: false })
                 Width: =App.Width
-                ZIndex: =1
+                ZIndex: =2
 
                 id_DataCard1 As typedDataCard.pcfCoreNumberEditCard:
                     BorderColor: =RGBA(166, 166, 166, 1)
@@ -575,7 +872,7 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                ZIndex: =2
+                ZIndex: =3
 
                 Button1 As Button:
                     BorderColor: =
@@ -590,7 +887,17 @@
                     HoverTextColor: =
                     LayoutMinHeight: =32
                     LayoutMinWidth: =96
-                    OnSelect: =SubmitForm(Form1)
+                    OnSelect: |
+                        =Set(
+                            Originaldata,
+                            Form2.LastSubmit.firstname
+                        );
+                        SubmitForm(Form1);
+                        SubmitForm(Form2);
+                        If(
+                            Originaldata <> Form2.LastSubmit.firstname,
+                            BR360UC02EventBaseFlow.Run(Form2.LastSubmit.firstname)
+                        );
                     PressedBorderColor: =
                     PressedFillColor: =
                     PressedTextColor: =
