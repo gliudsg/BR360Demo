@@ -1,0 +1,29 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(
+            varUser,
+            User()
+        );
+        Set(
+            VarSetSSN,
+            RGBA(
+                0,
+                128,
+                187,
+                1
+            )
+        );
+        Set(
+            QueryTable,
+            SQLQureyMainTable.Run()
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
