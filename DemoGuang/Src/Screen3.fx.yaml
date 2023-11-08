@@ -74,14 +74,23 @@
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
+                DisabledBorderColor: =
+                DisabledFillColor: =
+                DisabledTextColor: =
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(0, 0, 139, 8)
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
+                HoverBorderColor: =
+                HoverFillColor: =
+                HoverTextColor: =
                 LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen2)
+                PressedBorderColor: =
+                PressedFillColor: =
+                PressedTextColor: =
                 Text: ="Basic Information"
                 TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
@@ -93,14 +102,23 @@
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
+                DisabledBorderColor: =
+                DisabledFillColor: =
+                DisabledTextColor: =
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =If(App.ActiveScreen.Name = "Screen3",RGBA(0,128,187,1),RGBA(0, 0, 139, 8))
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
+                HoverBorderColor: =
+                HoverFillColor: =
+                HoverTextColor: =
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen3)
+                PressedBorderColor: =
+                PressedFillColor: =
+                PressedTextColor: =
                 Text: ="Personal Info"
                 TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
@@ -166,6 +184,7 @@
 
                     DataCardKey4 As Label:
                         AutoHeight: =true
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         FontSize: =9
                         Height: =22
@@ -231,6 +250,7 @@
 
                     StarVisible4 As Label:
                         Alignment: =Align.Center
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         Height: =30
                         Text: ="*"
@@ -260,6 +280,7 @@
 
                     DataCardKey1 As Label:
                         AutoHeight: =true
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         FontSize: =9
                         Height: =22
@@ -274,6 +295,8 @@
 
                     "DataCardValue1 As 'Text box'":
                         AccessibleLabel: =Parent.DisplayName
+                        ColorBackground: =
+                        ColorText: =
                         DisplayMode: =Parent.DisplayMode
                         FontSize: =10.5
                         Height: =32
@@ -303,6 +326,7 @@
 
                     StarVisible1 As Label:
                         Alignment: =Align.Center
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         Height: =30
                         Text: ="*"
@@ -332,6 +356,7 @@
 
                     DataCardKey2 As Label:
                         AutoHeight: =true
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         FontSize: =9
                         Height: =22
@@ -346,6 +371,8 @@
 
                     "DataCardValue2 As 'Text box'":
                         AccessibleLabel: =Parent.DisplayName
+                        ColorBackground: =
+                        ColorText: =
                         DisplayMode: =Parent.DisplayMode
                         FontSize: =10.5
                         Height: =32
@@ -375,6 +402,7 @@
 
                     StarVisible2 As Label:
                         Alignment: =Align.Center
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         Height: =30
                         Text: ="*"
@@ -404,6 +432,7 @@
 
                     DataCardKey3 As Label:
                         AutoHeight: =true
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         FontSize: =9
                         Height: =22
@@ -418,6 +447,8 @@
 
                     "DataCardValue3 As 'Text box'":
                         AccessibleLabel: =Parent.DisplayName
+                        ColorBackground: =
+                        ColorText: =
                         DisplayMode: =Parent.DisplayMode
                         FontSize: =10.5
                         Height: =32
@@ -447,6 +478,7 @@
 
                     StarVisible3 As Label:
                         Alignment: =Align.Center
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         Height: =30
                         Text: ="*"
@@ -476,6 +508,7 @@
 
                     DataCardKey5 As Label:
                         AutoHeight: =true
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         FontSize: =9
                         Height: =22
@@ -490,6 +523,8 @@
 
                     "DataCardValue5 As 'Text box'":
                         AccessibleLabel: =Parent.DisplayName
+                        ColorBackground: =
+                        ColorText: =
                         DisplayMode: =Parent.DisplayMode
                         FontSize: =10.5
                         Height: =32
@@ -519,6 +554,7 @@
 
                     StarVisible5 As Label:
                         Alignment: =Align.Center
+                        Color: =
                         DisplayMode: =DisplayMode.Edit
                         Height: =30
                         Text: ="*"
@@ -542,12 +578,24 @@
                 ZIndex: =2
 
                 Button1 As Button:
+                    BorderColor: =
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
                     DisplayMode: =DisplayMode.Edit
+                    FillColor: =
                     Height: =50
+                    HoverBorderColor: =
+                    HoverFillColor: =
+                    HoverTextColor: =
                     LayoutMinHeight: =32
                     LayoutMinWidth: =96
                     OnSelect: =SubmitForm(Form1)
+                    PressedBorderColor: =
+                    PressedFillColor: =
+                    PressedTextColor: =
                     Text: ="Save"
+                    TextColor: =
                     Width: =120
                     X: =0
                     Y: =0

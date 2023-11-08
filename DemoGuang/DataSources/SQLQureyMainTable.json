@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "709cf4ae-d5ed-4de5-8a74-0a85035b9826",
+    "Name": "SQLQureyMainTable",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "44696cb9-957d-ee11-8179-000d3a1ba416"
+  }
+]

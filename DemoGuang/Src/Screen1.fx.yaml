@@ -70,6 +70,7 @@
                 AlignInContainer: =AlignInContainer.Start
                 Alignment: =Align.Left
                 AutoHeight: =true
+                Color: =
                 DisplayMode: =DisplayMode.Edit
                 FontSize: =20
                 FontWeight: =FontWeight.Bold
@@ -605,6 +606,7 @@
                 Label10 As Label:
                     AlignInContainer: =AlignInContainer.Start
                     Alignment: =Align.Justify
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -619,6 +621,7 @@
                     ZIndex: =1
 
                 Label14 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -634,6 +637,7 @@
                     ZIndex: =2
 
                 Label15 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -648,6 +652,7 @@
                     ZIndex: =3
 
                 Label16 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -662,6 +667,7 @@
                     ZIndex: =4
 
                 Label17 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -676,6 +682,7 @@
                     ZIndex: =5
 
                 Label18 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     FontSize: =16
@@ -690,6 +697,7 @@
                     ZIndex: =6
 
                 Label9 As Label:
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32

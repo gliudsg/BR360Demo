@@ -38,7 +38,19 @@
           "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "TextColor",
+        "HoverTextColor",
+        "PressedTextColor",
+        "DisabledTextColor",
+        "FillColor",
+        "HoverFillColor",
+        "PressedFillColor",
+        "DisabledFillColor",
+        "BorderColor",
+        "HoverBorderColor",
+        "PressedBorderColor",
+        "DisabledBorderColor"
       ],
       "DynamicProperties": [
         {
@@ -94,6 +106,66 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "TextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "FillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -221,7 +293,16 @@
           "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "HoverTextColor",
+        "PressedTextColor",
+        "DisabledTextColor",
+        "HoverFillColor",
+        "PressedFillColor",
+        "DisabledFillColor",
+        "HoverBorderColor",
+        "PressedBorderColor",
+        "DisabledBorderColor"
       ],
       "DynamicProperties": [
         {
@@ -328,6 +409,51 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -455,7 +581,16 @@
           "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "HoverTextColor",
+        "PressedTextColor",
+        "DisabledTextColor",
+        "HoverFillColor",
+        "PressedFillColor",
+        "DisabledFillColor",
+        "HoverBorderColor",
+        "PressedBorderColor",
+        "DisabledBorderColor"
       ],
       "DynamicProperties": [
         {
@@ -548,6 +683,51 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledTextColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledFillColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "DisabledBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1379,7 +1559,8 @@
         "DisplayMode",
         "ZIndex",
         "FontSize",
-        "VerticalAlignment"
+        "VerticalAlignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1422,6 +1603,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1500,7 +1686,8 @@
         "DisplayMode",
         "ZIndex",
         "FontSize",
-        "VerticalAlignment"
+        "VerticalAlignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1543,6 +1730,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1621,7 +1813,8 @@
         "DisplayMode",
         "ZIndex",
         "FontSize",
-        "VerticalAlignment"
+        "VerticalAlignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1664,6 +1857,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1742,7 +1940,8 @@
         "DisplayMode",
         "ZIndex",
         "FontSize",
-        "VerticalAlignment"
+        "VerticalAlignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1785,6 +1984,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1863,7 +2067,8 @@
         "DisplayMode",
         "ZIndex",
         "FontSize",
-        "VerticalAlignment"
+        "VerticalAlignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1906,6 +2111,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoHeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1991,7 +2201,9 @@
         "Height",
         "ZIndex",
         "FontSize",
-        "Mode"
+        "Mode",
+        "ColorText",
+        "ColorBackground"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -2034,6 +2246,16 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorText",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorBackground",
           "RuleProviderType": "Unknown"
         },
         {
@@ -2119,7 +2341,9 @@
         "Height",
         "ZIndex",
         "FontSize",
-        "Mode"
+        "Mode",
+        "ColorText",
+        "ColorBackground"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -2162,6 +2386,16 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorText",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorBackground",
           "RuleProviderType": "Unknown"
         },
         {
@@ -2247,7 +2481,9 @@
         "Height",
         "ZIndex",
         "FontSize",
-        "Mode"
+        "Mode",
+        "ColorText",
+        "ColorBackground"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -2290,6 +2526,16 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorText",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorBackground",
           "RuleProviderType": "Unknown"
         },
         {
@@ -2695,7 +2941,9 @@
         "Height",
         "ZIndex",
         "FontSize",
-        "Mode"
+        "Mode",
+        "ColorText",
+        "ColorBackground"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -2738,6 +2986,16 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorText",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ColorBackground",
           "RuleProviderType": "Unknown"
         },
         {
@@ -5973,7 +6231,8 @@
         "Width",
         "DisplayMode",
         "ZIndex",
-        "Alignment"
+        "Alignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -5996,6 +6255,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6062,7 +6326,8 @@
         "Width",
         "DisplayMode",
         "ZIndex",
-        "Alignment"
+        "Alignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -6085,6 +6350,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6151,7 +6421,8 @@
         "Width",
         "DisplayMode",
         "ZIndex",
-        "Alignment"
+        "Alignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -6174,6 +6445,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6240,7 +6516,8 @@
         "Width",
         "DisplayMode",
         "ZIndex",
-        "Alignment"
+        "Alignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -6263,6 +6540,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6329,7 +6611,8 @@
         "Width",
         "DisplayMode",
         "ZIndex",
-        "Alignment"
+        "Alignment",
+        "Color"
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -6352,6 +6635,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {

@@ -4740,7 +4740,8 @@
           "InvariantPropertyName": "Alignment",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -4832,6 +4833,11 @@
         {
           "Category": "Data",
           "PropertyName": "Alignment",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -4939,7 +4945,8 @@
           "InvariantPropertyName": "PaddingStart",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5039,6 +5046,11 @@
         {
           "Category": "Data",
           "PropertyName": "PaddingStart",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -5216,7 +5228,8 @@
           "InvariantPropertyName": "FontSize",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5299,6 +5312,11 @@
           "RuleProviderType": "Unknown"
         },
         {
+          "Category": "Data",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "Height",
           "RuleProviderType": "Unknown"
@@ -5364,7 +5382,8 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5447,6 +5466,11 @@
           "RuleProviderType": "Unknown"
         },
         {
+          "Category": "Data",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "Height",
           "RuleProviderType": "Unknown"
@@ -5512,7 +5536,8 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5595,6 +5620,11 @@
           "RuleProviderType": "Unknown"
         },
         {
+          "Category": "Data",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "Height",
           "RuleProviderType": "Unknown"
@@ -5660,7 +5690,8 @@
           "InvariantPropertyName": "FontWeight",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5743,6 +5774,11 @@
           "RuleProviderType": "Unknown"
         },
         {
+          "Category": "Data",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "Height",
           "RuleProviderType": "Unknown"
@@ -5808,7 +5844,8 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -5888,6 +5925,11 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {
@@ -9277,7 +9319,8 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Color"
       ],
       "DynamicProperties": [
         {
@@ -9347,6 +9390,11 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Color",
           "RuleProviderType": "Unknown"
         },
         {

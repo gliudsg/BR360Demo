@@ -5,9 +5,10 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "appVer": "3.23102.20",
-        "modifiedOn": "2023-11-03 16:36:23",
-        "policy": "{\"type\":\"unused\"}",
+        "apiVer": 2,
+        "appVer": "3.23104.18",
+        "modifiedOn": "2023-11-08 15:14:02",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sql/icon.png",
@@ -44,10 +45,44 @@
       "user_basicInfo"
     ],
     "dependencies": {},
-    "dependents": [],
+    "dependents": [
+      "bd23554d-1775-4999-bec3-b99fedd36f91"
+    ],
     "endpoints": [
       "guangpowerapp.database.windows.net,powerapptest"
     ],
     "id": "b89037e8-f97e-495e-b7d3-6565cc3efe48"
+  },
+  "bd23554d-1775-4999-bec3-b99fedd36f91": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "44696cb9-957d-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "e79dce5b-0dd2-a39a-fa98-65bdbe8e9721"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "44696cb9-957d-ee11-8179-000d3a1ba416"
+        },
+        "workflowName": {
+          "value": "e79dce5b-0dd2-a39a-fa98-65bdbe8e9721"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "SQLQureyMainTable"
+    ],
+    "dependencies": {
+      "shared_sql": "b89037e8-f97e-495e-b7d3-6565cc3efe48"
+    },
+    "dependents": [],
+    "id": "bd23554d-1775-4999-bec3-b99fedd36f91"
   }
 }

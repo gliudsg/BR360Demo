@@ -74,14 +74,23 @@
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
+                DisabledBorderColor: =
+                DisabledFillColor: =
+                DisabledTextColor: =
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =If(App.ActiveScreen.Name = "Screen2",RGBA(0,128,187,1),RGBA(0, 0, 139, 8))
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
+                HoverBorderColor: =
+                HoverFillColor: =
+                HoverTextColor: =
                 LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen2)
+                PressedBorderColor: =
+                PressedFillColor: =
+                PressedTextColor: =
                 Text: ="Basic Information"
                 TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
@@ -94,14 +103,23 @@
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.Solid
                 BorderThickness: =0
+                DisabledBorderColor: =
+                DisabledFillColor: =
+                DisabledTextColor: =
                 DisplayMode: =DisplayMode.Edit
                 FillColor: =RGBA(0, 0, 139, 8)
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
+                HoverBorderColor: =
+                HoverFillColor: =
+                HoverTextColor: =
                 LayoutMinHeight: =75
                 LayoutMinWidth: =96
                 OnSelect: =Navigate(Screen3)
+                PressedBorderColor: =
+                PressedFillColor: =
+                PressedTextColor: =
                 Text: ="Personal Info"
                 TextColor: =RGBA(255, 255, 255, 1)
                 Width: =140
@@ -578,6 +596,7 @@
 
                 Label19 As Label:
                     AutoHeight: =true
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     Font: =Font.'Lato Black'
                     FontSize: =17
@@ -609,6 +628,7 @@
 
                 Label24 As Label:
                     AutoHeight: =true
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =2
                     Height: =32
@@ -621,6 +641,7 @@
 
                 Label25 As Label:
                     AutoHeight: =true
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -633,6 +654,7 @@
 
                 Label26 As Label:
                     AutoHeight: =true
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -645,6 +667,7 @@
 
                 Label27 As Label:
                     AutoHeight: =true
+                    Color: =
                     DisplayMode: =DisplayMode.Edit
                     FillPortions: =1
                     Height: =32
@@ -700,6 +723,7 @@
 
                         Label20 As Label:
                             AutoHeight: =true
+                            Color: =
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =2
                             Height: =32
@@ -713,6 +737,7 @@
 
                         Label20_1 As Label:
                             AutoHeight: =true
+                            Color: =
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
@@ -726,6 +751,7 @@
 
                         Label20_2 As Label:
                             AutoHeight: =true
+                            Color: =
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
@@ -739,6 +765,7 @@
 
                         Label20_3 As Label:
                             AutoHeight: =true
+                            Color: =
                             DisplayMode: =DisplayMode.Edit
                             FillPortions: =1
                             Height: =32
@@ -782,9 +809,16 @@
     Toggle4 As Toggle:
         Checked: =true
         DisplayMode: =DisplayMode.Edit
+        HandleOffFillColor: =
+        HandleOnFillColor: =
         Height: =24
+        OffFillColor: =
+        OffHoverFillColor: =
         OffText: ="Show"
+        OnFillColor: =
+        OnHoverFillColor: =
         OnText: ="Show"
+        TextColor: =
         Width: =88
         X: =260
         Y: =345
