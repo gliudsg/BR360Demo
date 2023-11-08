@@ -37,7 +37,21 @@
     "dependents": [],
     "id": "0f1338be-caf3-4da8-8ce8-fc1491423b4c"
   },
-  "4d5c751e-792b-4140-9354-df0ad50c3d68": {
+  "73a24e87-913a-4ad3-a8f9-2e28e6038baa": {
+    "connectionRef": {
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1657/1.0.1657.3443/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "0f1338be-caf3-4da8-8ce8-fc1491423b4c"
+    ],
+    "id": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
+  },
+  "91f5a2be-3995-4a4f-8618-fca7aa98cfc7": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
@@ -64,26 +78,12 @@
       "BR360UC02EventBaseFlow"
     ],
     "dependencies": {
-      "shared_office365": "a527e20e-9527-4c61-a9a3-a343298d6f82"
+      "shared_office365": "b80af89a-79d4-4973-8c1b-0fe85fc264e4"
     },
     "dependents": [],
-    "id": "4d5c751e-792b-4140-9354-df0ad50c3d68"
+    "id": "91f5a2be-3995-4a4f-8618-fca7aa98cfc7"
   },
-  "73a24e87-913a-4ad3-a8f9-2e28e6038baa": {
-    "connectionRef": {
-      "displayName": "Microsoft Teams",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1657/1.0.1657.3443/teams/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_teams"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "0f1338be-caf3-4da8-8ce8-fc1491423b4c"
-    ],
-    "id": "73a24e87-913a-4ad3-a8f9-2e28e6038baa"
-  },
-  "a527e20e-9527-4c61-a9a3-a343298d6f82": {
+  "b80af89a-79d4-4973-8c1b-0fe85fc264e4": {
     "connectionRef": {
       "displayName": "Office 365 Outlook",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365/icon.png",
@@ -93,9 +93,9 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "4d5c751e-792b-4140-9354-df0ad50c3d68"
+      "91f5a2be-3995-4a4f-8618-fca7aa98cfc7"
     ],
-    "id": "a527e20e-9527-4c61-a9a3-a343298d6f82"
+    "id": "b80af89a-79d4-4973-8c1b-0fe85fc264e4"
   },
   "b89037e8-f97e-495e-b7d3-6565cc3efe48": {
     "connectionRef": {
@@ -105,7 +105,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23104.18",
-        "modifiedOn": "2023-11-08 16:36:02",
+        "modifiedOn": "2023-11-08 20:07:47",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[users]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_address]\":[\"post\",\"patch\",\"get\"],\"[dbo].[user_status]\":[\"get\"],\"[dbo].[user_with_status]\":[\"get\"],\"[dbo].[user_basicinfo]\":[\"get\"]}}",
         "version": 1
       },

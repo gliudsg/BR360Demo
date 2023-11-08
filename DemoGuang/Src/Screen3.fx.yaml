@@ -896,7 +896,7 @@
                         SubmitForm(Form2);
                         If(
                             Originaldata <> Form2.LastSubmit.firstname,
-                            BR360UC02EventBaseFlow.Run(Form2.LastSubmit.firstname)
+                            BR360UC02EventBaseFlow.Run(Form2.LastSubmit.firstname,Originaldata,Form2.LastSubmit.lastname)
                         );
                     PressedBorderColor: =
                     PressedFillColor: =
