@@ -656,9 +656,7 @@
                     AutoHeight: =true
                     Color: =
                     DisplayMode: =DisplayMode.Edit
-                    FillPortions: =1
                     Height: =32
-                    LayoutMinHeight: =32
                     Text: =""
                     Width: =320
                     X: =0
@@ -757,7 +755,7 @@
                             Height: =32
                             LayoutMinHeight: =32
                             LayoutMinWidth: =200
-                            Text: =
+                            Text: =""
                             Width: =320
                             X: =0
                             Y: =0
